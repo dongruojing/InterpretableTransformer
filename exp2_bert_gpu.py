@@ -398,8 +398,6 @@ def parse_args():
     return parser.parse_args()
 
 
-
-
 os.environ['CURL_CA_BUNDLE'] = ''
 os.environ['REQUESTS_CA_BUNDLE'] = ''
 
@@ -430,7 +428,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 try:
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=hf_token)
     tokenizer.model_max_length = 1000
-    model = AutoModelForQuestionAnswering.from_pretrained(model_name, use_auth_token=hf_token, output_hidden_states=True)
+    model = AutoModelForQuestionAnswering.from_pretrained(model_name, use_auth_token=hf_token,
+                                                          output_hidden_states=True)
 
     model.eval()
     model.to(device)
@@ -447,6 +446,9 @@ num_attention_heads = config.num_attention_heads
 d_head = hidden_size // num_attention_heads
 num_layer = config.num_hidden_layers
 
+'''
+Demo code for calculating Alignment Score in Section 4
+'''
 
 data_path = 'exp2/data/dependence_datasets_spacy_1000_12041.json'
 data = load_data(data_path)
