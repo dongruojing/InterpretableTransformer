@@ -194,7 +194,7 @@ def load_corpus(corpus_name, num_sentences=100):
 
 
 '''
-Sample code of experiment to construct a specialized word dependency dataset using SpaCy.
+Demo code of experiment to construct a specialized word dependency dataset using SpaCy.
 '''
 
 # Process the sentences
