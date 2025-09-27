@@ -1,0 +1,488 @@
+{
+  "start_idx": 900,
+  "end_idx": 1100,
+  "eval_results": {
+    "exact": 72.5,
+    "f1": 82.05143128577745,
+    "total": 200
+  },
+  "mismatch_results": {
+    "qas": [
+      {
+        "index": 3,
+        "data_id": "56f84a60aef2371900625fa0",
+        "question": "What did Schurf's letter say  Luther's return caused?",
+        "context": "The effect of Luther's intervention was immediate. After the sixth sermon, the Wittenberg jurist Jerome Schurf wrote to the elector: \"Oh, what joy has Dr. Martin's return spread among us! His words, through divine mercy, are bringing back every day misguided people into the way of the truth.\"",
+        "expected_answers": [
+          "joy",
+          "joy",
+          "joy"
+        ],
+        "expected_answer_starts": [
+          143,
+          143,
+          143
+        ],
+        "model_answer": "every day misguided people into the way of the truth",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 9,
+        "data_id": "56f84b68aef2371900625fab",
+        "question": "Besides the radicals who else did Luther have to deal with?",
+        "context": "Luther next set about reversing or modifying the new church practices. By working alongside the authorities to restore public order, he signalled his reinvention as a conservative force within the Reformation. After banishing the Zwickau prophets, he now faced a battle against not only the established Church but also the radical reformers who threatened the new order by fomenting social unrest and violence.",
+        "expected_answers": [
+          "established Church",
+          "the established Church",
+          "established Church"
+        ],
+        "expected_answer_starts": [
+          291,
+          287,
+          291
+        ],
+        "model_answer": "the established church but also the radical reformers",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 10,
+        "data_id": "56f851b1a6d7ea1400e1755d",
+        "question": "What did Luther deny the rebels?",
+        "context": "Without Luther's backing for the uprising, many rebels laid down their weapons; others felt betrayed. Their defeat by the Swabian League at the Battle of Frankenhausen on 15 May 1525, followed by M\u00fcntzer's execution, brought the revolutionary stage of the Reformation to a close. Thereafter, radicalism found a refuge in the anabaptist movement and other religious movements, while Luther's Reformation flourished under the wing of the secular powers.",
+        "expected_answers": [
+          "backing for the uprising",
+          "backing",
+          "backing"
+        ],
+        "expected_answer_starts": [
+          17,
+          17,
+          17
+        ],
+        "model_answer": "[CLS] what did luther deny the rebels? [SEP] without luther ' s backing for the uprising, many rebels laid down their weapons",
+        "correct": false,
+        "f1": 0.2727272727272727
+      },
+      {
+        "index": 32,
+        "data_id": "56f86d30a6d7ea1400e17607",
+        "question": "What group did Luther want to understand his works?",
+        "context": "Luther's translation used the variant of German spoken at the Saxon chancellery, intelligible to both northern and southern Germans. He intended his vigorous, direct language to make the Bible accessible to everyday Germans, \"for we are removing impediments and difficulties so that other people may read it without hindrance.\"",
+        "expected_answers": [
+          "everyday Germans",
+          "everyday Germans",
+          "everyday Germans"
+        ],
+        "expected_answer_starts": [
+          207,
+          207,
+          207
+        ],
+        "model_answer": "northern and southern germans. he intended his vigorous, direct language to make the bible accessible to everyday germans",
+        "correct": false,
+        "f1": 0.21052631578947367
+      },
+      {
+        "index": 36,
+        "data_id": "56f88025aef237190062611f",
+        "question": "How many hymns of Luther were included in the Achtliederbuch?",
+        "context": "Luther's hymns were included in early Lutheran hymnals and spread the ideas of the Reformation. He supplied four of eight songs of the First Lutheran hymnal Achtliederbuch, 18 of 26 songs of the Erfurt Enchiridion, and 24 of the 32 songs in the first choral hymnal with settings by Johann Walter, Eyn geystlich Gesangk Buchleyn, all published in 1524.",
+        "expected_answers": [
+          "four",
+          "four",
+          "four"
+        ],
+        "expected_answer_starts": [
+          108,
+          108,
+          108
+        ],
+        "model_answer": "four of eight",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 37,
+        "data_id": "56f88025aef2371900626120",
+        "question": "How many hymns did Luther contribute to the Erfurt Enchiridion?",
+        "context": "Luther's hymns were included in early Lutheran hymnals and spread the ideas of the Reformation. He supplied four of eight songs of the First Lutheran hymnal Achtliederbuch, 18 of 26 songs of the Erfurt Enchiridion, and 24 of the 32 songs in the first choral hymnal with settings by Johann Walter, Eyn geystlich Gesangk Buchleyn, all published in 1524.",
+        "expected_answers": [
+          "18",
+          "18",
+          "18"
+        ],
+        "expected_answer_starts": [
+          173,
+          173,
+          173
+        ],
+        "model_answer": "18 of 26",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 38,
+        "data_id": "56f88025aef2371900626121",
+        "question": "How many hymns did Luther write for the first choral hymnal?",
+        "context": "Luther's hymns were included in early Lutheran hymnals and spread the ideas of the Reformation. He supplied four of eight songs of the First Lutheran hymnal Achtliederbuch, 18 of 26 songs of the Erfurt Enchiridion, and 24 of the 32 songs in the first choral hymnal with settings by Johann Walter, Eyn geystlich Gesangk Buchleyn, all published in 1524.",
+        "expected_answers": [
+          "24",
+          "24",
+          "24"
+        ],
+        "expected_answer_starts": [
+          219,
+          219,
+          219
+        ],
+        "model_answer": "24 of the 32",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 39,
+        "data_id": "56f88025aef2371900626122",
+        "question": "What was the title of the first choral hymnal?",
+        "context": "Luther's hymns were included in early Lutheran hymnals and spread the ideas of the Reformation. He supplied four of eight songs of the First Lutheran hymnal Achtliederbuch, 18 of 26 songs of the Erfurt Enchiridion, and 24 of the 32 songs in the first choral hymnal with settings by Johann Walter, Eyn geystlich Gesangk Buchleyn, all published in 1524.",
+        "expected_answers": [
+          "Eyn geystlich Gesangk Buchleyn",
+          "Eyn geystlich Gesangk Buchleyn",
+          "Eyn geystlich Gesangk Buchleyn"
+        ],
+        "expected_answer_starts": [
+          297,
+          297,
+          297
+        ],
+        "model_answer": "achtliederbuch",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 42,
+        "data_id": "56f884cba6d7ea1400e17709",
+        "question": "Who else observed that Luther view of souls was different form later views?",
+        "context": "The Lutheran theologian Franz Pieper observed that Luther's teaching about the state of the Christian's soul after death differed from the later Lutheran theologians such as Johann Gerhard. Lessing (1755) had earlier reached the same conclusion in his analysis of Lutheran orthodoxy on this issue.",
+        "expected_answers": [
+          "Gerhard. Lessing",
+          "Lessing",
+          "Lessing"
+        ],
+        "expected_answer_starts": [
+          181,
+          190,
+          190
+        ],
+        "model_answer": "franz pieper",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 56,
+        "data_id": "56f89a959b226e1400dd0c9f",
+        "question": "What were Mohammedanism and the Turk?",
+        "context": "In 1542, Luther read a Latin translation of the Qur'an. He went on to produce several critical pamphlets on Islam, which he called \"Mohammedanism\" or \"the Turk\". Though Luther saw the Muslim faith as a tool of the devil, he was indifferent to its practice: \"Let the Turk believe and live as he will, just as one lets the papacy and other false Christians live.\" He opposed banning the publication of the Qur'an, wanting it exposed to scrutiny.",
+        "expected_answers": [
+          "Islam",
+          "Islam",
+          "pamphlets"
+        ],
+        "expected_answer_starts": [
+          108,
+          108,
+          95
+        ],
+        "model_answer": "critical pamphlets on islam",
+        "correct": false,
+        "f1": 0.4
+      },
+      {
+        "index": 61,
+        "data_id": "56f8aa749b226e1400dd0da9",
+        "question": "What does the Ten Commandments ask of the Christians?",
+        "context": "The Ten Commandments, and the beginnings of the renewed life of Christians accorded to them by the sacrament of baptism, are a present foreshadowing of the believers' future angel-like life in heaven in the midst of this life. Luther's teaching of the Ten Commandments, therefore, has clear eschatological overtones, which, characteristically for Luther, do not encourage world-flight but direct the Christian to service to the neighbor in the common, daily vocations of this perishing world.",
+        "expected_answers": [
+          "service to the neighbor",
+          "service to the neighbor in the common",
+          "service to the neighbor in the common, daily vocations of this perishing world"
+        ],
+        "expected_answer_starts": [
+          413,
+          413,
+          413
+        ],
+        "model_answer": "renewed life",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 68,
+        "data_id": "56f8c43d9b226e1400dd0f62",
+        "question": "What other aspect of Luther's life was affected by his health?",
+        "context": "His poor physical health made him short-tempered and even harsher in his writings and comments. His wife Katharina was overheard saying, \"Dear husband, you are too rude,\" and he responded, \"They are teaching me to be rude.\" In 1545 and 1546 Luther preached three times in the Market Church in Halle, staying with his friend Justus Jonas during Christmas.",
+        "expected_answers": [
+          "writings and comments",
+          "his writings and comments",
+          "writings and comments."
+        ],
+        "expected_answer_starts": [
+          73,
+          69,
+          73
+        ],
+        "model_answer": "physical",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 77,
+        "data_id": "56f8ca289b226e1400dd1007",
+        "question": "What was later discovered written by Luther?",
+        "context": "A piece of paper was later found on which Luther had written his last statement. The statement was in Latin, apart from \"We are beggars,\" which was in German.",
+        "expected_answers": [
+          "his last statement",
+          "his last statement",
+          "last statement"
+        ],
+        "expected_answer_starts": [
+          61,
+          61,
+          65
+        ],
+        "model_answer": "a piece of paper",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 84,
+        "data_id": "56f8ce779b226e1400dd1041",
+        "question": "How is Luther commemorated on the Lutheran, Episcopal, and  Church of England  calendars?",
+        "context": "Luther is honoured on 18 February with a commemoration in the Lutheran Calendar of Saints and in the Episcopal (United States) Calendar of Saints. In the Church of England's Calendar of Saints he is commemorated on 31 October.",
+        "expected_answers": [
+          "Luther is honoured",
+          "honoured",
+          "honoured"
+        ],
+        "expected_answer_starts": [
+          0,
+          10,
+          10
+        ],
+        "model_answer": "a commemoration in the lutheran calendar of saints and in the episcopal ( united states ) calendar of saints. in the church of england ' s calendar of saints he is commemorated on 31 october",
+        "correct": false,
+        "f1": 0.06451612903225806
+      },
+      {
+        "index": 87,
+        "data_id": "5705e33f52bb89140068964e",
+        "question": "What is the name of the state that the megaregion expands to in the east?",
+        "context": "The 8- and 10-county definitions are not used for the greater Southern California Megaregion, one of the 11 megaregions of the United States. The megaregion's area is more expansive, extending east into Las Vegas, Nevada, and south across the Mexican border into Tijuana.",
+        "expected_answers": [
+          "Nevada",
+          "Nevada",
+          "Nevada"
+        ],
+        "expected_answer_starts": [
+          214,
+          214,
+          214
+        ],
+        "model_answer": "las vegas, nevada",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 90,
+        "data_id": "5705e4fe75f01819005e7704",
+        "question": "What is the name of the water body that is found to the east?",
+        "context": "To the east is the Colorado Desert and the Colorado River at the border with Arizona, and the Mojave Desert at the border with the state of Nevada. To the south is the Mexico\u2013United States border.",
+        "expected_answers": [
+          "Colorado River",
+          "the Colorado River",
+          "Colorado River"
+        ],
+        "expected_answer_starts": [
+          43,
+          39,
+          43
+        ],
+        "model_answer": "colorado desert and the colorado river",
+        "correct": false,
+        "f1": 0.5714285714285715
+      },
+      {
+        "index": 101,
+        "data_id": "5705e99452bb89140068968a",
+        "question": "What are Los Angeles, Orange, San Diego, San Bernardino and Riverside?",
+        "context": "Its counties of Los Angeles, Orange, San Diego, San Bernardino, and Riverside are the five most populous in the state and all are in the top 15 most populous counties in the United States.",
+        "expected_answers": [
+          "counties",
+          "counties",
+          "five most populous in the state"
+        ],
+        "expected_answer_starts": [
+          4,
+          4,
+          86
+        ],
+        "model_answer": "its counties of los angeles, orange, san diego, san bernardino, and riverside are the five most populous in the state",
+        "correct": false,
+        "f1": 0.4347826086956522
+      },
+      {
+        "index": 124,
+        "data_id": "5705fd8475f01819005e7840",
+        "question": "What term best describes southern California's collection of landscapes?",
+        "context": "Southern California consists of one of the more varied collections of geologic, topographic, and natural ecosystem landscapes in a diversity outnumbering other major regions in the state and country. The region spans from Pacific Ocean islands, shorelines, beaches, and coastal plains, through the Transverse and Peninsular Ranges with their peaks, into the large and small interior valleys, to the vast deserts of California.",
+        "expected_answers": [
+          "varied",
+          "varied",
+          "natural ecosystem"
+        ],
+        "expected_answer_starts": [
+          48,
+          48,
+          97
+        ],
+        "model_answer": "geologic, topographic, and natural ecosystem",
+        "correct": false,
+        "f1": 0.5714285714285715
+      },
+      {
+        "index": 146,
+        "data_id": "570607f575f01819005e78b4",
+        "question": "What is the largest city in all of California?",
+        "context": "Los Angeles (at 3.7 million people) and San Diego (at 1.3 million people), both in southern California, are the two largest cities in all of California (and two of the eight largest cities in the United States). In southern California there are also twelve cities with more than 200,000 residents and 34 cities over 100,000 in population. Many of southern California's most developed cities lie along or in close proximity to the coast, with the exception of San Bernardino and Riverside.",
+        "expected_answers": [
+          "Los Angeles",
+          "Los Angeles",
+          "Los Angeles"
+        ],
+        "expected_answer_starts": [
+          0,
+          0,
+          0
+        ],
+        "model_answer": "los angeles ( at 3. 7 million people ) and san diego",
+        "correct": false,
+        "f1": 0.33333333333333337
+      },
+      {
+        "index": 147,
+        "data_id": "570607f575f01819005e78b5",
+        "question": "What is the population of the second largest city in California?",
+        "context": "Los Angeles (at 3.7 million people) and San Diego (at 1.3 million people), both in southern California, are the two largest cities in all of California (and two of the eight largest cities in the United States). In southern California there are also twelve cities with more than 200,000 residents and 34 cities over 100,000 in population. Many of southern California's most developed cities lie along or in close proximity to the coast, with the exception of San Bernardino and Riverside.",
+        "expected_answers": [
+          "1.3 million",
+          "1.3 million",
+          "San Diego"
+        ],
+        "expected_answer_starts": [
+          54,
+          54,
+          40
+        ],
+        "model_answer": "los angeles ( at 3. 7 million people",
+        "correct": false,
+        "f1": 0.4
+      },
+      {
+        "index": 154,
+        "data_id": "57060a1175f01819005e78d4",
+        "question": "Which type of livestock was the argricultural region known for?",
+        "context": "Since the 1920s, motion pictures, petroleum and aircraft manufacturing have been major industries. In one of the richest agricultural regions in the U.S., cattle and citrus were major industries until farmlands were turned into suburbs. Although military spending cutbacks have had an impact, aerospace continues to be a major factor.",
+        "expected_answers": [
+          "cattle",
+          "cattle",
+          "cattle"
+        ],
+        "expected_answer_starts": [
+          155,
+          155,
+          155
+        ],
+        "model_answer": "cattle and citrus",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 158,
+        "data_id": "57060a6e52bb8914006897fa",
+        "question": "What is the only district in the CBD to not have \"downtown\" in it's name?",
+        "context": "Southern California is home to many major business districts. Central business districts (CBD) include Downtown Los Angeles, Downtown San Diego, Downtown San Bernardino, Downtown Bakersfield, South Coast Metro and Downtown Riverside.",
+        "expected_answers": [
+          "South Coast Metro",
+          "South Coast Metro",
+          "South Coast Metro"
+        ],
+        "expected_answer_starts": [
+          192,
+          192,
+          192
+        ],
+        "model_answer": "downtown riverside",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 172,
+        "data_id": "57060f3e75f01819005e7923",
+        "question": "Other than its main central  business district, where are the majority of San Diego's business districts located?",
+        "context": "Downtown San Diego is the central business district of San Diego, though the city is filled with business districts. These include Carmel Valley, Del Mar Heights, Mission Valley, Rancho Bernardo, Sorrento Mesa, and University City. Most of these districts are located in Northern San Diego and some within North County regions.",
+        "expected_answers": [
+          "Northern San Diego",
+          "Northern San Diego",
+          "Northern San Diego"
+        ],
+        "expected_answer_starts": [
+          271,
+          271,
+          271
+        ],
+        "model_answer": "northern san diego and some within north county regions",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 182,
+        "data_id": "5706143575f01819005e7950",
+        "question": "The Los Angeles Rams are an example of what kind of sports team?",
+        "context": "Professional sports teams in Southern California include teams from the NFL (Los Angeles Rams, San Diego Chargers); NBA (Los Angeles Lakers, Los Angeles Clippers); MLB (Los Angeles Dodgers, Los Angeles Angels of Anaheim, San Diego Padres); NHL (Los Angeles Kings, Anaheim Ducks); and MLS (LA Galaxy).",
+        "expected_answers": [
+          "NFL",
+          "Professional",
+          "NFL"
+        ],
+        "expected_answer_starts": [
+          72,
+          0,
+          72
+        ],
+        "model_answer": "professional sports teams in southern california include teams from the nfl",
+        "correct": false,
+        "f1": 0.18181818181818182
+      },
+      {
+        "index": 194,
+        "data_id": "570614ff52bb89140068988c",
+        "question": "What is the name of the team from USC?",
+        "context": "College sports are also popular in southern California. The UCLA Bruins and the USC Trojans both field teams in NCAA Division I in the Pac-12 Conference, and there is a longtime rivalry between the schools.",
+        "expected_answers": [
+          "Trojans",
+          "Trojans",
+          "Trojans"
+        ],
+        "expected_answer_starts": [
+          84,
+          84,
+          84
+        ],
+        "model_answer": "ucla bruins",
+        "correct": false,
+        "f1": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "start_idx": 0,
+  "end_idx": 300,
+  "eval_results": {
+    "exact": 83.66666666666667,
+    "f1": 86.915873015873,
+    "total": 300
+  },
+  "mismatch_results": {
+    "qas": [
+      {
+        "index": 2,
+        "data_id": "56be4eafacb8001400a50304",
+        "question": "Which team held the scoring lead throughout the entire game?",
+        "context": "The Broncos took an early lead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him seven times and forced him into three turnovers, including a fumble which they recovered for a touchdown. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2\u00bd sacks, and two forced fumbles.",
+        "expected_answers": [
+          "Broncos",
+          "The Broncos",
+          "Broncos"
+        ],
+        "expected_answer_starts": [
+          4,
+          0,
+          4
+        ],
+        "model_answer": "[CLS] which team held the scoring lead throughout the entire game? [SEP] the broncos",
+        "correct": false,
+        "f1": 0.16666666666666669
+      },
+      {
+        "index": 32,
+        "data_id": "56beaf5e3aeaaa14008c91ff",
+        "question": "What halftime performer previously headlined Super Bowl XLVII?",
+        "context": "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyonc\u00e9 and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched U.S. broadcast ever.",
+        "expected_answers": [
+          "Beyonc\u00e9",
+          "Beyonc\u00e9",
+          "Beyonc\u00e9"
+        ],
+        "expected_answer_starts": [
+          233,
+          233,
+          233
+        ],
+        "model_answer": "bruno mars",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 34,
+        "data_id": "56beaf5e3aeaaa14008c9201",
+        "question": "Who was the main performer at this year's halftime show?",
+        "context": "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyonc\u00e9 and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched U.S. broadcast ever.",
+        "expected_answers": [
+          "Coldplay",
+          "Coldplay",
+          "Coldplay"
+        ],
+        "expected_answer_starts": [
+          194,
+          194,
+          194
+        ],
+        "model_answer": "beyonce and bruno mars",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 63,
+        "data_id": "56be5438acb8001400a5031b",
+        "question": "Which Florida venue was one of three considered for Super Bowl 50?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "Miami's Sun Life Stadium",
+          "Miami's Sun Life Stadium",
+          "Sun Life Stadium"
+        ],
+        "expected_answer_starts": [
+          94,
+          94,
+          102
+        ],
+        "model_answer": "new orleans ' mercedes - benz superdome",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 64,
+        "data_id": "56be5438acb8001400a5031c",
+        "question": "Which California venue was one of three considered for Super Bowl 50?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "San Francisco Bay Area's Levi's Stadium",
+          "San Francisco Bay Area's Levi's Stadium",
+          "Levi's Stadium"
+        ],
+        "expected_answer_starts": [
+          128,
+          128,
+          153
+        ],
+        "model_answer": "new orleans ' mercedes - benz superdome",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 74,
+        "data_id": "56d6ee6e0d65d21400198257",
+        "question": "What was the third city that was considered?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "San Francisco",
+          "San Francisco",
+          "San Francisco Bay Area's"
+        ],
+        "expected_answer_starts": [
+          128,
+          128,
+          128
+        ],
+        "model_answer": "new orleans",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 76,
+        "data_id": "56d98db6dc89441400fdb552",
+        "question": "What Florida stadium was considered for Super Bowl 50?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "Sun Life Stadium",
+          "Sun Life Stadium",
+          "Sun Life Stadium"
+        ],
+        "expected_answer_starts": [
+          102,
+          102,
+          102
+        ],
+        "model_answer": "new orleans ' mercedes - benz superdome",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 78,
+        "data_id": "56d98db6dc89441400fdb554",
+        "question": "What is the name of the stadium where Super Bowl 50 was played?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "Levi's Stadium.",
+          "Levi's Stadium",
+          "Levi's Stadium."
+        ],
+        "expected_answer_starts": [
+          153,
+          153,
+          153
+        ],
+        "model_answer": "mercedes - benz superdome",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 108,
+        "data_id": "56bf34293aeaaa14008c955a",
+        "question": "What was the score of the last game the Carolina Panthers played prior to the NFC Championship?",
+        "context": "The Panthers beat the Seattle Seahawks in the divisional round, running up a 31\u20130 halftime lead and then holding off a furious second half comeback attempt to win 31\u201324, avenging their elimination from a year earlier. The Panthers then blew out the Arizona Cardinals in the NFC Championship Game, 49\u201315, racking up 487 yards and forcing seven turnovers.",
+        "expected_answers": [
+          "31\u201324",
+          "31\u201324",
+          "31\u201324,"
+        ],
+        "expected_answer_starts": [
+          163,
+          163,
+          163
+        ],
+        "model_answer": "49 \u2013 15",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 111,
+        "data_id": "56d701280d65d214001982ba",
+        "question": "Who did the Panthers play to advance to the Super Bowl?",
+        "context": "The Panthers beat the Seattle Seahawks in the divisional round, running up a 31\u20130 halftime lead and then holding off a furious second half comeback attempt to win 31\u201324, avenging their elimination from a year earlier. The Panthers then blew out the Arizona Cardinals in the NFC Championship Game, 49\u201315, racking up 487 yards and forcing seven turnovers.",
+        "expected_answers": [
+          "Arizona Cardinals",
+          "the Arizona Cardinals",
+          "Cardinals"
+        ],
+        "expected_answer_starts": [
+          249,
+          245,
+          257
+        ],
+        "model_answer": "seattle seahawks",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 122,
+        "data_id": "56bf36b93aeaaa14008c9561",
+        "question": "What team was the divisional round winner between the Broncos and Steelers?",
+        "context": "The Broncos defeated the Pittsburgh Steelers in the divisional round, 23\u201316, by scoring 11 points in the final three minutes of the game. They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20\u201318, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock. Despite Manning's problems with interceptions during the season, he didn't throw any in their two playoff games.",
+        "expected_answers": [
+          "Broncos",
+          "The Broncos",
+          "Broncos"
+        ],
+        "expected_answer_starts": [
+          4,
+          0,
+          4
+        ],
+        "model_answer": "new england patriots",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 123,
+        "data_id": "56bf36b93aeaaa14008c9562",
+        "question": "What was the final score of the game between the Broncos and Steelers?",
+        "context": "The Broncos defeated the Pittsburgh Steelers in the divisional round, 23\u201316, by scoring 11 points in the final three minutes of the game. They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20\u201318, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock. Despite Manning's problems with interceptions during the season, he didn't throw any in their two playoff games.",
+        "expected_answers": [
+          "23\u201316",
+          "23\u201316",
+          ", 23\u201316,"
+        ],
+        "expected_answer_starts": [
+          70,
+          70,
+          68
+        ],
+        "model_answer": "11 points",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 153,
+        "data_id": "56bf3fd53aeaaa14008c9594",
+        "question": "Who has the record of being the oldest quarter back in any Super Bowl game?",
+        "context": "Peyton Manning became the first quarterback ever to lead two different teams to multiple Super Bowls. He is also the oldest quarterback ever to play in a Super Bowl at age 39. The past record was held by John Elway, who led the Broncos to victory in Super Bowl XXXIII at age 38 and is currently Denver's Executive Vice President of Football Operations and General Manager.",
+        "expected_answers": [
+          "Peyton Manning",
+          "Peyton Manning",
+          "Manning",
+          "Manning"
+        ],
+        "expected_answer_starts": [
+          0,
+          0,
+          7,
+          7
+        ],
+        "model_answer": "john elway",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 165,
+        "data_id": "56beb90c3aeaaa14008c92ca",
+        "question": "How much older was Manning than Newton during Super Bowl 50?",
+        "context": "This was the first Super Bowl to feature a quarterback on both teams who was the #1 pick in their draft classes. Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011. The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver. Manning and Newton also set the record for the largest age difference between opposing Super Bowl quarterbacks at 13 years and 48 days (Manning was 39, Newton was 26).",
+        "expected_answers": [
+          "13 years and 48 days",
+          "13 years and 48 days",
+          "13 years"
+        ],
+        "expected_answer_starts": [
+          443,
+          443,
+          443
+        ],
+        "model_answer": "39",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 166,
+        "data_id": "56beb90c3aeaaa14008c92cb",
+        "question": "Who was the #2 pick in the 2011 NFL Draft?",
+        "context": "This was the first Super Bowl to feature a quarterback on both teams who was the #1 pick in their draft classes. Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011. The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver. Manning and Newton also set the record for the largest age difference between opposing Super Bowl quarterbacks at 13 years and 48 days (Manning was 39, Newton was 26).",
+        "expected_answers": [
+          "Von Miller",
+          "Von Miller",
+          "Miller"
+        ],
+        "expected_answer_starts": [
+          306,
+          306,
+          310
+        ],
+        "model_answer": "newton",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 173,
+        "data_id": "56d7096b0d65d214001982fe",
+        "question": "Who was the number two draft pick for 2011?",
+        "context": "This was the first Super Bowl to feature a quarterback on both teams who was the #1 pick in their draft classes. Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011. The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver. Manning and Newton also set the record for the largest age difference between opposing Super Bowl quarterbacks at 13 years and 48 days (Manning was 39, Newton was 26).",
+        "expected_answers": [
+          "Von Miller",
+          "Von Miller",
+          "Miller"
+        ],
+        "expected_answer_starts": [
+          306,
+          306,
+          310
+        ],
+        "model_answer": "newton",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 208,
+        "data_id": "56d714cd0d65d21400198356",
+        "question": "Where was a beer, wine and food festival held at prior to the Super Bowl?",
+        "context": "In addition, there are $2 million worth of other ancillary events, including a week-long event at the Santa Clara Convention Center, a beer, wine and food festival at Bellomy Field at Santa Clara University, and a pep rally. A professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event. Additional funding will be provided by the city council, which has announced plans to set aside seed funding for the event.",
+        "expected_answers": [
+          "Bellomy Field",
+          "Bellomy Field",
+          "Santa Clara Convention Center"
+        ],
+        "expected_answer_starts": [
+          167,
+          167,
+          102
+        ],
+        "model_answer": "bellomy field at santa clara university",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 219,
+        "data_id": "56bf57043aeaaa14008c95da",
+        "question": "What day of the week was Media Day held on for Super Bowl 50?",
+        "context": "The game's media day, which was typically held on the Tuesday afternoon prior to the game, was moved to the Monday evening and re-branded as Super Bowl Opening Night. The event was held on February 1, 2016 at SAP Center in San Jose. Alongside the traditional media availabilities, the event featured an opening ceremony with player introductions on a replica of the Golden Gate Bridge.",
+        "expected_answers": [
+          "Monday",
+          "Monday",
+          "Monday"
+        ],
+        "expected_answer_starts": [
+          108,
+          108,
+          108
+        ],
+        "model_answer": "tuesday",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 276,
+        "data_id": "56bec2573aeaaa14008c937b",
+        "question": "What talk show followed immediately after Super Bowl 50 on CBS?",
+        "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+        "expected_answers": [
+          "The Late Show with Stephen Colbert",
+          "The Late Show with Stephen Colbert",
+          "Late Show with Stephen Colbert"
+        ],
+        "expected_answer_starts": [
+          186,
+          186,
+          190
+        ],
+        "model_answer": "the late show",
+        "correct": false,
+        "f1": 0.5714285714285715
+      },
+      {
+        "index": 278,
+        "data_id": "56bf6f743aeaaa14008c9631",
+        "question": "Which late night comedy host show played immediately after Super Bowl 50 ended?",
+        "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+        "expected_answers": [
+          "The Late Show with Stephen Colbert",
+          "The Late Show with Stephen Colbert",
+          "Colbert"
+        ],
+        "expected_answer_starts": [
+          186,
+          186,
+          213
+        ],
+        "model_answer": "the late show",
+        "correct": false,
+        "f1": 0.5714285714285715
+      },
+      {
+        "index": 279,
+        "data_id": "56bf6f743aeaaa14008c9632",
+        "question": "What other CBS talk show played, after the main one that began immediately after Super Bowl 50?",
+        "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+        "expected_answers": [
+          "The Late Late Show with James Corden",
+          "The Late Late Show with James Corden",
+          "Late Late Show with James Corden"
+        ],
+        "expected_answer_starts": [
+          323,
+          323,
+          327
+        ],
+        "model_answer": "the late show",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 280,
+        "data_id": "56d720c70d65d21400198396",
+        "question": "What CBS show followed the Super Bowl?",
+        "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+        "expected_answers": [
+          "The Late Show with Stephen Colbert",
+          "The Late Show with Stephen Colbert",
+          "Late Show with Stephen Colbert"
+        ],
+        "expected_answer_starts": [
+          186,
+          186,
+          190
+        ],
+        "model_answer": "the late show",
+        "correct": false,
+        "f1": 0.5714285714285715
+      },
+      {
+        "index": 281,
+        "data_id": "56d720c70d65d21400198397",
+        "question": "What followed The Late Show with Stephen Colbert?",
+        "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+        "expected_answers": [
+          "late local programming",
+          "late local programming",
+          "late local programming"
+        ],
+        "expected_answer_starts": [
+          263,
+          263,
+          263
+        ],
+        "model_answer": "super bowl 50",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 292,
+        "data_id": "56d9be16dc89441400fdb770",
+        "question": "What company had a contest to win a free Super Bowl commercial?",
+        "context": "QuickBooks sponsored a \"Small Business Big Game\" contest, in which Death Wish Coffee had a 30-second commercial aired free of charge courtesy of QuickBooks. Death Wish Coffee beat out nine other contenders from across the United States for the free advertisement.",
+        "expected_answers": [
+          "QuickBooks.",
+          "QuickBooks",
+          "QuickBooks"
+        ],
+        "expected_answer_starts": [
+          145,
+          0,
+          0
+        ],
+        "model_answer": "death wish coffee",
+        "correct": false,
+        "f1": 0
+      }
+    ]
+  }
+}

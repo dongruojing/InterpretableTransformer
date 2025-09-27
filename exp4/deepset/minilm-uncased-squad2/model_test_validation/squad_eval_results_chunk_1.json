@@ -1,0 +1,412 @@
+{
+  "start_idx": 300,
+  "end_idx": 600,
+  "eval_results": {
+    "exact": 83.33333333333333,
+    "f1": 90.22529431352959,
+    "total": 300
+  },
+  "mismatch_results": {
+    "qas": [
+      {
+        "index": 6,
+        "data_id": "56d9c049dc89441400fdb790",
+        "question": "Who were the Westwood One sideline announcers?",
+        "context": "Westwood One will carry the game throughout North America, with Kevin Harlan as play-by-play announcer, Boomer Esiason and Dan Fouts as color analysts, and James Lofton and Mark Malone as sideline reporters. Jim Gray will anchor the pre-game and halftime coverage.",
+        "expected_answers": [
+          "James Lofton and Mark Malone",
+          "James Lofton and Mark Malone",
+          "James Lofton and Mark Malone"
+        ],
+        "expected_answer_starts": [
+          156,
+          156,
+          156
+        ],
+        "model_answer": "kevin harlan",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 12,
+        "data_id": "56d724ea0d65d214001983c8",
+        "question": "What British TV network will carry the Super Bowl?",
+        "context": "In the United Kingdom, BBC Radio 5 Live and 5 Live Sports Extra will carry the contest. The BBC will carry its own British English broadcast, with Greg Brady, Darren Fletcher and Rocky Boiman on commentary.",
+        "expected_answers": [
+          "BBC",
+          "BBC",
+          "BBC"
+        ],
+        "expected_answer_starts": [
+          23,
+          23,
+          92
+        ],
+        "model_answer": "bbc radio 5 live and 5 live sports extra",
+        "correct": false,
+        "f1": 0.19999999999999998
+      },
+      {
+        "index": 30,
+        "data_id": "56bec6ac3aeaaa14008c9400",
+        "question": "What did Marlee Matlin translate?",
+        "context": "Six-time Grammy winner and Academy Award nominee Lady Gaga performed the national anthem, while Academy Award winner Marlee Matlin provided American Sign Language (ASL) translation.",
+        "expected_answers": [
+          "the national anthem",
+          "the national anthem",
+          "national anthem"
+        ],
+        "expected_answer_starts": [
+          69,
+          69,
+          73
+        ],
+        "model_answer": "american sign language",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 38,
+        "data_id": "56d9c455dc89441400fdb7c6",
+        "question": "Who did the sign language of the National Anthem at Super Bowl 50?",
+        "context": "Six-time Grammy winner and Academy Award nominee Lady Gaga performed the national anthem, while Academy Award winner Marlee Matlin provided American Sign Language (ASL) translation.",
+        "expected_answers": [
+          "Marlee Matlin",
+          "Marlee Matlin",
+          "Marlee Matlin"
+        ],
+        "expected_answer_starts": [
+          117,
+          117,
+          117
+        ],
+        "model_answer": "lady gaga",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 74,
+        "data_id": "56de4b074396321400ee2794",
+        "question": "What architecture type came before Norman in England?",
+        "context": "In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the Early Gothic. In southern Italy, the Normans incorporated elements of Islamic, Lombard, and Byzantine building techniques into their own, initiating a unique style known as Norman-Arab architecture within the Kingdom of Sicily.",
+        "expected_answers": [
+          "Anglo-Saxon",
+          "Anglo-Saxon",
+          "Anglo-Saxon"
+        ],
+        "expected_answer_starts": [
+          79,
+          79,
+          79
+        ],
+        "model_answer": "early gothic",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 79,
+        "data_id": "56de4c324396321400ee27ad",
+        "question": "Who commissioned the Tapestry?",
+        "context": "By far the most famous work of Norman art is the Bayeux Tapestry, which is not a tapestry but a work of embroidery. It was commissioned by Odo, the Bishop of Bayeux and first Earl of Kent, employing natives from Kent who were learned in the Nordic traditions imported in the previous half century by the Danish Vikings.",
+        "expected_answers": [
+          "Odo",
+          "Odo",
+          "Odo"
+        ],
+        "expected_answer_starts": [
+          139,
+          139,
+          139
+        ],
+        "model_answer": "odo, the bishop of bayeux and first earl of kent",
+        "correct": false,
+        "f1": 0.19999999999999998
+      },
+      {
+        "index": 109,
+        "data_id": "56e0c2307aa994140058e6e2",
+        "question": "What was Tesla's father's original plans for Tesla?",
+        "context": "In 1873, Tesla returned to his birthtown, Smiljan. Shortly after he arrived, Tesla contracted cholera; he was bedridden for nine months and was near death multiple times. Tesla's father, in a moment of despair, promised to send him to the best engineering school if he recovered from the illness (his father had originally wanted him to enter the priesthood).",
+        "expected_answers": [
+          "enter the priesthood",
+          "the priesthood",
+          "enter the priesthood"
+        ],
+        "expected_answer_starts": [
+          337,
+          343,
+          337
+        ],
+        "model_answer": "wanted him to enter the priesthood",
+        "correct": false,
+        "f1": 0.5714285714285715
+      },
+      {
+        "index": 118,
+        "data_id": "56e0c2bc231d4119001ac38b",
+        "question": "What did Tesla do in Tomingaj?",
+        "context": "In 1874, Tesla evaded being drafted into the Austro-Hungarian Army in Smiljan by running away to Tomingaj, near Gra\u010dac. There, he explored the mountains in hunter's garb. Tesla said that this contact with nature made him stronger, both physically and mentally. He read many books while in Tomingaj, and later said that Mark Twain's works had helped him to miraculously recover from his earlier illness.",
+        "expected_answers": [
+          "he explored the mountains in hunter's garb",
+          "he explored",
+          "explored the mountains in hunter's garb"
+        ],
+        "expected_answer_starts": [
+          127,
+          127,
+          130
+        ],
+        "model_answer": "explored the mountains",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 131,
+        "data_id": "56dfac8e231d4119001abc5e",
+        "question": "How did Tesla attend the university?",
+        "context": "In January 1880, two of Tesla's uncles put together enough money to help him leave Gospi\u0107 for Prague where he was to study. Unfortunately, he arrived too late to enroll at Charles-Ferdinand University; he never studied Greek, a required subject; and he was illiterate in Czech, another required subject. Tesla did, however, attend lectures at the university, although, as an auditor, he did not receive grades for the courses.",
+        "expected_answers": [
+          "as an auditor",
+          "as an auditor",
+          "as an auditor"
+        ],
+        "expected_answer_starts": [
+          369,
+          369,
+          369
+        ],
+        "model_answer": "lectures",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 142,
+        "data_id": "56e0d54a7aa994140058e769",
+        "question": "Where did Tesla begin a new job at in 1882?",
+        "context": "In 1882, Tesla began working for the Continental Edison Company in France, designing and making improvements to electrical equipment. In June 1884, he relocated to New York City:57\u201360 where he was hired by Thomas Edison to work at his Edison Machine Works on Manhattan's lower east side. Tesla's work for Edison began with simple electrical engineering and quickly progressed to solving more difficult problems.",
+        "expected_answers": [
+          "Continental Edison Company",
+          "Continental Edison Company",
+          "Continental Edison Company"
+        ],
+        "expected_answer_starts": [
+          37,
+          37,
+          37
+        ],
+        "model_answer": "france",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 158,
+        "data_id": "56e05900231d4119001ac04e",
+        "question": "How much did Westinghouse pay to license Tesla's designs?",
+        "context": "In July 1888, Brown and Peck negotiated a licensing deal with George Westinghouse for Tesla's polyphase induction motor and transformer designs for $60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor. Westinghouse also hired Tesla for one year for the large fee of $2,000 ($52,700 in today's dollars) per month to be a consultant at the Westinghouse Electric & Manufacturing Company's Pittsburgh labs.",
+        "expected_answers": [
+          "$60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor",
+          "$60,000 in cash and stock and a royalty",
+          "$60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor"
+        ],
+        "expected_answer_starts": [
+          148,
+          148,
+          148
+        ],
+        "model_answer": "$ 60, 000",
+        "correct": false,
+        "f1": 0.4
+      },
+      {
+        "index": 161,
+        "data_id": "56e0dc667aa994140058e783",
+        "question": "How much did Westinghouse pay for Tesla's designs?",
+        "context": "In July 1888, Brown and Peck negotiated a licensing deal with George Westinghouse for Tesla's polyphase induction motor and transformer designs for $60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor. Westinghouse also hired Tesla for one year for the large fee of $2,000 ($52,700 in today's dollars) per month to be a consultant at the Westinghouse Electric & Manufacturing Company's Pittsburgh labs.",
+        "expected_answers": [
+          "$60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor",
+          "$60,000 in cash and stock and a royalty",
+          "$60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor"
+        ],
+        "expected_answer_starts": [
+          148,
+          148,
+          148
+        ],
+        "model_answer": "$ 60, 000",
+        "correct": false,
+        "f1": 0.4
+      },
+      {
+        "index": 198,
+        "data_id": "56e10179cd28a01900c67413",
+        "question": "What did Tesla establish following his Colorado experiments?",
+        "context": "The Colorado experiments had prepared Tesla for the establishment of the trans-Atlantic wireless telecommunications facility known as Wardenclyffe near Shoreham, Long Island.",
+        "expected_answers": [
+          "Wardenclyffe",
+          "Wardenclyffe",
+          "Wardenclyffe"
+        ],
+        "expected_answer_starts": [
+          134,
+          134,
+          134
+        ],
+        "model_answer": "trans - atlantic wireless telecommunications facility",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 204,
+        "data_id": "56e10325cd28a01900c67438",
+        "question": "What was the horsepower put out by the turbines in Waterside Power Station",
+        "context": "On his 50th birthday in 1906, Tesla demonstrated his 200 horsepower (150 kilowatts) 16,000 rpm bladeless turbine. During 1910\u20131911 at the Waterside Power Station in New York, several of his bladeless turbine engines were tested at 100\u20135,000 hp.",
+        "expected_answers": [
+          "100\u20135,000 hp",
+          "100\u20135,000",
+          "100\u20135,000"
+        ],
+        "expected_answer_starts": [
+          231,
+          231,
+          231
+        ],
+        "model_answer": "several of his bladeless turbine engines were tested at 100 \u2013 5, 000 hp",
+        "correct": false,
+        "f1": 0.47058823529411764
+      },
+      {
+        "index": 225,
+        "data_id": "56e10f14e3433e1400422b5d",
+        "question": "What was the occasion when he claimed he'd made the death ray?",
+        "context": "In 1937, at a luncheon in his honor concerning the death ray, Tesla stated, \"But it is not an experiment ... I have built, demonstrated and used it. Only a little time will pass before I can give it to the world.\" His records indicate that the device is based on a narrow stream of small tungsten pellets that are accelerated via high voltage (by means akin to his magnifying transformer).",
+        "expected_answers": [
+          "at a luncheon in his honor",
+          "a luncheon in his honor",
+          "a luncheon in his honor"
+        ],
+        "expected_answer_starts": [
+          9,
+          12,
+          12
+        ],
+        "model_answer": "luncheon",
+        "correct": false,
+        "f1": 0.4
+      },
+      {
+        "index": 231,
+        "data_id": "56e11044e3433e1400422b78",
+        "question": "According to Tesla what had been gone over by the thieves, or spies who entered his room?",
+        "context": "During the period in which the negotiations were being conducted, Tesla said that efforts had been made to steal the invention. His room had been entered and his papers had been scrutinized, but the thieves, or spies, left empty-handed. He said that there was no danger that his invention could be stolen, for he had at no time committed any part of it to paper; the blueprint for the teleforce weapon was all in his mind.",
+        "expected_answers": [
+          "his papers",
+          "his papers",
+          "his papers"
+        ],
+        "expected_answer_starts": [
+          158,
+          158,
+          158
+        ],
+        "model_answer": "empty - handed",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 236,
+        "data_id": "56e1127bcd28a01900c6754d",
+        "question": "When are the ashes now?",
+        "context": "In 1952, following pressure from Tesla's nephew, Sava Kosanovi\u0107, Tesla's entire estate was shipped to Belgrade in 80 trunks marked N.T. In 1957, Kosanovi\u0107's secretary Charlotte Muzar transported Tesla's ashes from the United States to Belgrade. The ashes are displayed in a gold-plated sphere on a marble pedestal in the Nikola Tesla Museum.",
+        "expected_answers": [
+          "Nikola Tesla Museum",
+          "the Nikola Tesla Museum",
+          "the Nikola Tesla Museum"
+        ],
+        "expected_answer_starts": [
+          321,
+          317,
+          317
+        ],
+        "model_answer": "belgrade",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 239,
+        "data_id": "56e11a73e3433e1400422bf2",
+        "question": "What did he do to his feet at night?",
+        "context": "For exercise, Tesla walked between 8 to 10 miles per day. He squished his toes one hundred times for each foot every night, saying that it stimulated his brain cells.",
+        "expected_answers": [
+          "squished his toes",
+          "squished his toes",
+          "squished his toes one hundred times for each foot"
+        ],
+        "expected_answer_starts": [
+          61,
+          61,
+          61
+        ],
+        "model_answer": "squished",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 248,
+        "data_id": "56e11ba9cd28a01900c675db",
+        "question": "To what place did he bring the injured pigeons to take care of them?",
+        "context": "Near the end of his life, Tesla walked to the park every day to feed the pigeons and even brought injured ones into his hotel room to nurse back to health. He said that he had been visited by a specific injured white pigeon daily. Tesla spent over $2,000, including building a device that comfortably supported her so her bones could heal, to fix her broken wing and leg. Tesla stated,",
+        "expected_answers": [
+          "hotel room",
+          "his hotel room",
+          "his hotel room"
+        ],
+        "expected_answer_starts": [
+          120,
+          116,
+          116
+        ],
+        "model_answer": "the park",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 271,
+        "data_id": "56e1239acd28a01900c67641",
+        "question": "Who did Tesla think would run the world of the future?",
+        "context": "In 1926, Tesla commented on the ills of the social subservience of women and the struggle of women toward gender equality, and indicated that humanity's future would be run by \"Queen Bees.\" He believed that women would become the dominant sex in the future.",
+        "expected_answers": [
+          "women",
+          "women",
+          "women"
+        ],
+        "expected_answer_starts": [
+          67,
+          207,
+          207
+        ],
+        "model_answer": "queen bees",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 285,
+        "data_id": "56e125b6e3433e1400422c6d",
+        "question": "Who published Tesla's writings?",
+        "context": "Tesla wrote a number of books and articles for magazines and journals. Among his books are My Inventions: The Autobiography of Nikola Tesla, compiled and edited by Ben Johnston; The Fantastic Inventions of Nikola Tesla, compiled and edited by David Hatcher Childress; and The Tesla Papers.",
+        "expected_answers": [
+          "magazines and journals",
+          "magazines and journals",
+          "magazines and journals"
+        ],
+        "expected_answer_starts": [
+          47,
+          47,
+          47
+        ],
+        "model_answer": "ben johnston",
+        "correct": false,
+        "f1": 0
+      }
+    ]
+  }
+}

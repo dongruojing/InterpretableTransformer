@@ -1,0 +1,3374 @@
+{
+  "start_idx": 0,
+  "end_idx": 96,
+  "eval_results": {
+    "exact": 0.0,
+    "f1": 17.709036942529327,
+    "total": 96
+  },
+  "dp_results": {
+    "probability": 0.7671232876712328,
+    "dp_total_case": 73,
+    "dp_case_count": 56
+  },
+  "mismatch_results": {
+    "qas": [
+      {
+        "index": 1,
+        "data_id": "56beaf5e3aeaaa14008c91ff",
+        "question": "What halftime performer previously headlined Super Bowl XLVII?",
+        "context": "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyonc\u00e9 and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched U.S. broadcast ever.",
+        "expected_answers": [
+          "Beyonc\u00e9",
+          "Beyonc\u00e9",
+          "Beyonc\u00e9"
+        ],
+        "expected_answer_starts": [
+          233,
+          233,
+          233
+        ],
+        "model_answer": "bruno mars",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.6879290342330933,
+          "correct_var": 0.7164666056632996,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "mars",
+            "question token": [
+              "what"
+            ],
+            "var": 0.6879290342330933
+          },
+          "correct_t2t_list": {
+            "original token": "beyonce",
+            "question token": [
+              "what"
+            ],
+            "var": 0.7164666056632996
+          },
+          "wrong_ans_change": [
+            2,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "data_id": "56beaf5e3aeaaa14008c9201",
+        "question": "Who was the main performer at this year's halftime show?",
+        "context": "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyonc\u00e9 and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched U.S. broadcast ever.",
+        "expected_answers": [
+          "Coldplay",
+          "Coldplay",
+          "Coldplay"
+        ],
+        "expected_answer_starts": [
+          194,
+          194,
+          194
+        ],
+        "model_answer": "beyonce and bruno mars",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.2846120595932007,
+          "correct_var": 0.6811463236808777,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "beyonce",
+            "question token": [
+              "the"
+            ],
+            "var": 1.2846120595932007
+          },
+          "correct_t2t_list": {
+            "original token": "cold",
+            "question token": [
+              "the"
+            ],
+            "var": 0.6811463236808777
+          },
+          "wrong_ans_change": [
+            19,
+            20
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "data_id": "56be5438acb8001400a5031b",
+        "question": "Which Florida venue was one of three considered for Super Bowl 50?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "Miami's Sun Life Stadium",
+          "Miami's Sun Life Stadium",
+          "Sun Life Stadium"
+        ],
+        "expected_answer_starts": [
+          94,
+          94,
+          102
+        ],
+        "model_answer": "new orleans ' mercedes - benz superdome",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.7247065901756287,
+          "correct_var": 0.3018946349620819,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "orleans",
+            "question token": [
+              "florida"
+            ],
+            "var": 0.7247065901756287
+          },
+          "correct_t2t_list": {
+            "original token": "stadium",
+            "question token": [
+              "which"
+            ],
+            "var": 0.3018946349620819
+          },
+          "wrong_ans_change": [
+            2,
+            30
+          ],
+          "correct_ans_change": [
+            0,
+            15
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "data_id": "56be5438acb8001400a5031c",
+        "question": "Which California venue was one of three considered for Super Bowl 50?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "San Francisco Bay Area's Levi's Stadium",
+          "San Francisco Bay Area's Levi's Stadium",
+          "Levi's Stadium"
+        ],
+        "expected_answer_starts": [
+          128,
+          128,
+          153
+        ],
+        "model_answer": "new orleans ' mercedes - benz superdome",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.5644418001174927,
+          "correct_var": 0.3159547746181488,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "orleans",
+            "question token": [
+              "california"
+            ],
+            "var": 0.5644418001174927
+          },
+          "correct_t2t_list": {
+            "original token": "levi",
+            "question token": [
+              "which"
+            ],
+            "var": 0.3159547746181488
+          },
+          "wrong_ans_change": [
+            11,
+            30
+          ],
+          "correct_ans_change": [
+            15,
+            15
+          ]
+        }
+      },
+      {
+        "index": 5,
+        "data_id": "56d6ee6e0d65d21400198257",
+        "question": "What was the third city that was considered?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "San Francisco",
+          "San Francisco",
+          "San Francisco Bay Area's"
+        ],
+        "expected_answer_starts": [
+          128,
+          128,
+          128
+        ],
+        "model_answer": "new orleans",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.1222764253616333,
+          "correct_var": 0.540141761302948,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "orleans",
+            "question token": [
+              "the"
+            ],
+            "var": 1.1222764253616333
+          },
+          "correct_t2t_list": {
+            "original token": "francisco",
+            "question token": [
+              "the"
+            ],
+            "var": 0.540141761302948
+          },
+          "wrong_ans_change": [
+            10,
+            10
+          ],
+          "correct_ans_change": [
+            6,
+            10
+          ]
+        }
+      },
+      {
+        "index": 6,
+        "data_id": "56d98db6dc89441400fdb552",
+        "question": "What Florida stadium was considered for Super Bowl 50?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "Sun Life Stadium",
+          "Sun Life Stadium",
+          "Sun Life Stadium"
+        ],
+        "expected_answer_starts": [
+          102,
+          102,
+          102
+        ],
+        "model_answer": "new orleans ' mercedes - benz superdome",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.5965713858604431,
+          "correct_var": 0.2453761100769043,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "orleans",
+            "question token": [
+              "florida"
+            ],
+            "var": 0.5965713858604431
+          },
+          "correct_t2t_list": {
+            "original token": "stadium",
+            "question token": [
+              "what"
+            ],
+            "var": 0.2453761100769043
+          },
+          "wrong_ans_change": [
+            5,
+            30
+          ],
+          "correct_ans_change": [
+            1,
+            15
+          ]
+        }
+      },
+      {
+        "index": 7,
+        "data_id": "56d98db6dc89441400fdb554",
+        "question": "What is the name of the stadium where Super Bowl 50 was played?",
+        "context": "The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.",
+        "expected_answers": [
+          "Levi's Stadium.",
+          "Levi's Stadium",
+          "Levi's Stadium."
+        ],
+        "expected_answer_starts": [
+          153,
+          153,
+          153
+        ],
+        "model_answer": "mercedes - benz superdome",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.6372818350791931,
+          "correct_var": 0.5100119113922119,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "super",
+            "question token": [
+              "the"
+            ],
+            "var": 0.6372818350791931
+          },
+          "correct_t2t_list": {
+            "original token": "stadium",
+            "question token": [
+              "what"
+            ],
+            "var": 0.5100119113922119
+          },
+          "wrong_ans_change": [
+            0,
+            20
+          ],
+          "correct_ans_change": [
+            0,
+            15
+          ]
+        }
+      },
+      {
+        "index": 8,
+        "data_id": "56bf34293aeaaa14008c955a",
+        "question": "What was the score of the last game the Carolina Panthers played prior to the NFC Championship?",
+        "context": "The Panthers beat the Seattle Seahawks in the divisional round, running up a 31\u20130 halftime lead and then holding off a furious second half comeback attempt to win 31\u201324, avenging their elimination from a year earlier. The Panthers then blew out the Arizona Cardinals in the NFC Championship Game, 49\u201315, racking up 487 yards and forcing seven turnovers.",
+        "expected_answers": [
+          "31\u201324",
+          "31\u201324",
+          "31\u201324,"
+        ],
+        "expected_answer_starts": [
+          163,
+          163,
+          163
+        ],
+        "model_answer": "49 \u2013 15",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.4248291552066803,
+          "correct_var": 0.3767736852169037,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "49",
+            "question token": [
+              "?"
+            ],
+            "var": 0.4248291552066803
+          },
+          "correct_t2t_list": {
+            "original token": "24",
+            "question token": [
+              "?"
+            ],
+            "var": 0.3767736852169037
+          },
+          "wrong_ans_change": [
+            9,
+            15
+          ],
+          "correct_ans_change": [
+            7,
+            15
+          ]
+        }
+      },
+      {
+        "index": 9,
+        "data_id": "56d701280d65d214001982ba",
+        "question": "Who did the Panthers play to advance to the Super Bowl?",
+        "context": "The Panthers beat the Seattle Seahawks in the divisional round, running up a 31\u20130 halftime lead and then holding off a furious second half comeback attempt to win 31\u201324, avenging their elimination from a year earlier. The Panthers then blew out the Arizona Cardinals in the NFC Championship Game, 49\u201315, racking up 487 yards and forcing seven turnovers.",
+        "expected_answers": [
+          "Arizona Cardinals",
+          "the Arizona Cardinals",
+          "Cardinals"
+        ],
+        "expected_answer_starts": [
+          249,
+          245,
+          257
+        ],
+        "model_answer": "seattle seahawks",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.7789261341094971,
+          "correct_var": 0.6192150115966797,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "seahawks",
+            "question token": [
+              "the"
+            ],
+            "var": 0.7789261341094971
+          },
+          "correct_t2t_list": {
+            "original token": "cardinals",
+            "question token": [
+              "who"
+            ],
+            "var": 0.6192150115966797
+          },
+          "wrong_ans_change": [
+            7,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 10,
+        "data_id": "56bf36b93aeaaa14008c9561",
+        "question": "What team was the divisional round winner between the Broncos and Steelers?",
+        "context": "The Broncos defeated the Pittsburgh Steelers in the divisional round, 23\u201316, by scoring 11 points in the final three minutes of the game. They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20\u201318, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock. Despite Manning's problems with interceptions during the season, he didn't throw any in their two playoff games.",
+        "expected_answers": [
+          "Broncos",
+          "The Broncos",
+          "Broncos"
+        ],
+        "expected_answer_starts": [
+          4,
+          0,
+          4
+        ],
+        "model_answer": "new england patriots",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.7378239631652832,
+          "correct_var": 2.9177029132843018,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "patriots",
+            "question token": [
+              "what"
+            ],
+            "var": 0.7378239631652832
+          },
+          "correct_t2t_list": {
+            "original token": "broncos",
+            "question token": [
+              "the"
+            ],
+            "var": 2.9177029132843018
+          },
+          "wrong_ans_change": [
+            4,
+            15
+          ],
+          "correct_ans_change": [
+            1,
+            5
+          ]
+        }
+      },
+      {
+        "index": 11,
+        "data_id": "56bf36b93aeaaa14008c9562",
+        "question": "What was the final score of the game between the Broncos and Steelers?",
+        "context": "The Broncos defeated the Pittsburgh Steelers in the divisional round, 23\u201316, by scoring 11 points in the final three minutes of the game. They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20\u201318, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock. Despite Manning's problems with interceptions during the season, he didn't throw any in their two playoff games.",
+        "expected_answers": [
+          "23\u201316",
+          "23\u201316",
+          ", 23\u201316,"
+        ],
+        "expected_answer_starts": [
+          70,
+          70,
+          68
+        ],
+        "model_answer": "11 points",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.6542084217071533,
+          "correct_var": 1.3662601709365845,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "11",
+            "question token": [
+              "what"
+            ],
+            "var": 1.6542084217071533
+          },
+          "correct_t2t_list": {
+            "original token": "16",
+            "question token": [
+              "?"
+            ],
+            "var": 1.3662601709365845
+          },
+          "wrong_ans_change": [
+            8,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            15
+          ]
+        }
+      },
+      {
+        "index": 12,
+        "data_id": "56bf3fd53aeaaa14008c9594",
+        "question": "Who has the record of being the oldest quarter back in any Super Bowl game?",
+        "context": "Peyton Manning became the first quarterback ever to lead two different teams to multiple Super Bowls. He is also the oldest quarterback ever to play in a Super Bowl at age 39. The past record was held by John Elway, who led the Broncos to victory in Super Bowl XXXIII at age 38 and is currently Denver's Executive Vice President of Football Operations and General Manager.",
+        "expected_answers": [
+          "Peyton Manning",
+          "Peyton Manning",
+          "Manning",
+          "Manning"
+        ],
+        "expected_answer_starts": [
+          0,
+          0,
+          7,
+          7
+        ],
+        "model_answer": "john elway",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.6103755235671997,
+          "correct_var": 0.708635687828064,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "john",
+            "question token": [
+              "who"
+            ],
+            "var": 0.6103755235671997
+          },
+          "correct_t2t_list": {
+            "original token": "manning",
+            "question token": [
+              "who"
+            ],
+            "var": 0.708635687828064
+          },
+          "wrong_ans_change": [
+            3,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 13,
+        "data_id": "56beb90c3aeaaa14008c92ca",
+        "question": "How much older was Manning than Newton during Super Bowl 50?",
+        "context": "This was the first Super Bowl to feature a quarterback on both teams who was the #1 pick in their draft classes. Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011. The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver. Manning and Newton also set the record for the largest age difference between opposing Super Bowl quarterbacks at 13 years and 48 days (Manning was 39, Newton was 26).",
+        "expected_answers": [
+          "13 years and 48 days",
+          "13 years and 48 days",
+          "13 years"
+        ],
+        "expected_answer_starts": [
+          443,
+          443,
+          443
+        ],
+        "model_answer": "39",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 2.140641927719116,
+          "correct_var": 3.031129837036133,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "39",
+            "question token": [
+              "50"
+            ],
+            "var": 2.140641927719116
+          },
+          "correct_t2t_list": {
+            "original token": "13",
+            "question token": [
+              "50"
+            ],
+            "var": 3.031129837036133
+          },
+          "wrong_ans_change": [
+            4,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            10
+          ]
+        }
+      },
+      {
+        "index": 14,
+        "data_id": "56beb90c3aeaaa14008c92cb",
+        "question": "Who was the #2 pick in the 2011 NFL Draft?",
+        "context": "This was the first Super Bowl to feature a quarterback on both teams who was the #1 pick in their draft classes. Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011. The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver. Manning and Newton also set the record for the largest age difference between opposing Super Bowl quarterbacks at 13 years and 48 days (Manning was 39, Newton was 26).",
+        "expected_answers": [
+          "Von Miller",
+          "Von Miller",
+          "Miller"
+        ],
+        "expected_answer_starts": [
+          306,
+          306,
+          310
+        ],
+        "model_answer": "newton",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.80294269323349,
+          "correct_var": 0.21742284297943115,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "newton",
+            "question token": [
+              "2"
+            ],
+            "var": 0.80294269323349
+          },
+          "correct_t2t_list": {
+            "original token": "miller",
+            "question token": [
+              "draft"
+            ],
+            "var": 0.21742284297943115
+          },
+          "wrong_ans_change": [
+            0,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 15,
+        "data_id": "56d7096b0d65d214001982fe",
+        "question": "Who was the number two draft pick for 2011?",
+        "context": "This was the first Super Bowl to feature a quarterback on both teams who was the #1 pick in their draft classes. Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011. The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver. Manning and Newton also set the record for the largest age difference between opposing Super Bowl quarterbacks at 13 years and 48 days (Manning was 39, Newton was 26).",
+        "expected_answers": [
+          "Von Miller",
+          "Von Miller",
+          "Miller"
+        ],
+        "expected_answer_starts": [
+          306,
+          306,
+          310
+        ],
+        "model_answer": "newton",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.8375865817070007,
+          "correct_var": 0.20031535625457764,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "newton",
+            "question token": [
+              "who"
+            ],
+            "var": 0.8375865817070007
+          },
+          "correct_t2t_list": {
+            "original token": "miller",
+            "question token": [
+              "who"
+            ],
+            "var": 0.20031535625457764
+          },
+          "wrong_ans_change": [
+            4,
+            5
+          ],
+          "correct_ans_change": [
+            1,
+            5
+          ]
+        }
+      },
+      {
+        "index": 17,
+        "data_id": "56bf57043aeaaa14008c95da",
+        "question": "What day of the week was Media Day held on for Super Bowl 50?",
+        "context": "The game's media day, which was typically held on the Tuesday afternoon prior to the game, was moved to the Monday evening and re-branded as Super Bowl Opening Night. The event was held on February 1, 2016 at SAP Center in San Jose. Alongside the traditional media availabilities, the event featured an opening ceremony with player introductions on a replica of the Golden Gate Bridge.",
+        "expected_answers": [
+          "Monday",
+          "Monday",
+          "Monday"
+        ],
+        "expected_answer_starts": [
+          108,
+          108,
+          108
+        ],
+        "model_answer": "tuesday",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.9380990266799927,
+          "correct_var": 0.6092386841773987,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "tuesday",
+            "question token": [
+              "week"
+            ],
+            "var": 0.9380990266799927
+          },
+          "correct_t2t_list": {
+            "original token": "monday",
+            "question token": [
+              "week"
+            ],
+            "var": 0.6092386841773987
+          },
+          "wrong_ans_change": [
+            5,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 19,
+        "data_id": "56bf6f743aeaaa14008c9631",
+        "question": "Which late night comedy host show played immediately after Super Bowl 50 ended?",
+        "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+        "expected_answers": [
+          "The Late Show with Stephen Colbert",
+          "The Late Show with Stephen Colbert",
+          "Colbert"
+        ],
+        "expected_answer_starts": [
+          186,
+          186,
+          213
+        ],
+        "model_answer": "the late show",
+        "correct": false,
+        "f1": 0.5714285714285715,
+        "dp_case": {
+          "wrong_var": 0.6022483706474304,
+          "correct_var": 0.5138714909553528,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "late",
+            "question token": [
+              "which"
+            ],
+            "var": 0.6022483706474304
+          },
+          "correct_t2t_list": {
+            "original token": "colbert",
+            "question token": [
+              "50"
+            ],
+            "var": 0.5138714909553528
+          },
+          "wrong_ans_change": [
+            14,
+            15
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 22,
+        "data_id": "56d720c70d65d21400198397",
+        "question": "What followed The Late Show with Stephen Colbert?",
+        "context": "As opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.",
+        "expected_answers": [
+          "late local programming",
+          "late local programming",
+          "late local programming"
+        ],
+        "expected_answer_starts": [
+          263,
+          263,
+          263
+        ],
+        "model_answer": "super bowl 50",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.620498776435852,
+          "correct_var": 0.15873222053050995,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "bowl",
+            "question token": [
+              "colbert"
+            ],
+            "var": 0.620498776435852
+          },
+          "correct_t2t_list": {
+            "original token": "programming",
+            "question token": [
+              "show"
+            ],
+            "var": 0.15873222053050995
+          },
+          "wrong_ans_change": [
+            10,
+            15
+          ],
+          "correct_ans_change": [
+            2,
+            15
+          ]
+        }
+      },
+      {
+        "index": 23,
+        "data_id": "56d9be16dc89441400fdb770",
+        "question": "What company had a contest to win a free Super Bowl commercial?",
+        "context": "QuickBooks sponsored a \"Small Business Big Game\" contest, in which Death Wish Coffee had a 30-second commercial aired free of charge courtesy of QuickBooks. Death Wish Coffee beat out nine other contenders from across the United States for the free advertisement.",
+        "expected_answers": [
+          "QuickBooks.",
+          "QuickBooks",
+          "QuickBooks"
+        ],
+        "expected_answer_starts": [
+          145,
+          0,
+          0
+        ],
+        "model_answer": "death wish coffee",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.8245033621788025,
+          "correct_var": 0.3826487064361572,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "death",
+            "question token": [
+              "what"
+            ],
+            "var": 0.8245033621788025
+          },
+          "correct_t2t_list": {
+            "original token": "quick",
+            "question token": [
+              "what"
+            ],
+            "var": 0.3826487064361572
+          },
+          "wrong_ans_change": [
+            5,
+            15
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 24,
+        "data_id": "56d9c049dc89441400fdb790",
+        "question": "Who were the Westwood One sideline announcers?",
+        "context": "Westwood One will carry the game throughout North America, with Kevin Harlan as play-by-play announcer, Boomer Esiason and Dan Fouts as color analysts, and James Lofton and Mark Malone as sideline reporters. Jim Gray will anchor the pre-game and halftime coverage.",
+        "expected_answers": [
+          "James Lofton and Mark Malone",
+          "James Lofton and Mark Malone",
+          "James Lofton and Mark Malone"
+        ],
+        "expected_answer_starts": [
+          156,
+          156,
+          156
+        ],
+        "model_answer": "kevin harlan",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.5294376611709595,
+          "correct_var": 0.41848698258399963,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "kevin",
+            "question token": [
+              "who"
+            ],
+            "var": 0.5294376611709595
+          },
+          "correct_t2t_list": {
+            "original token": "and",
+            "question token": [
+              "who"
+            ],
+            "var": 0.41848698258399963
+          },
+          "wrong_ans_change": [
+            4,
+            10
+          ],
+          "correct_ans_change": [
+            3,
+            25
+          ]
+        }
+      },
+      {
+        "index": 26,
+        "data_id": "56bec6ac3aeaaa14008c9400",
+        "question": "What did Marlee Matlin translate?",
+        "context": "Six-time Grammy winner and Academy Award nominee Lady Gaga performed the national anthem, while Academy Award winner Marlee Matlin provided American Sign Language (ASL) translation.",
+        "expected_answers": [
+          "the national anthem",
+          "the national anthem",
+          "national anthem"
+        ],
+        "expected_answer_starts": [
+          69,
+          69,
+          73
+        ],
+        "model_answer": "american sign language",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.3187878131866455,
+          "correct_var": 0.5227648615837097,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "language",
+            "question token": [
+              "what"
+            ],
+            "var": 1.3187878131866455
+          },
+          "correct_t2t_list": {
+            "original token": "anthem",
+            "question token": [
+              "what"
+            ],
+            "var": 0.5227648615837097
+          },
+          "wrong_ans_change": [
+            1,
+            15
+          ],
+          "correct_ans_change": [
+            0,
+            10
+          ]
+        }
+      },
+      {
+        "index": 27,
+        "data_id": "56d9c455dc89441400fdb7c6",
+        "question": "Who did the sign language of the National Anthem at Super Bowl 50?",
+        "context": "Six-time Grammy winner and Academy Award nominee Lady Gaga performed the national anthem, while Academy Award winner Marlee Matlin provided American Sign Language (ASL) translation.",
+        "expected_answers": [
+          "Marlee Matlin",
+          "Marlee Matlin",
+          "Marlee Matlin"
+        ],
+        "expected_answer_starts": [
+          117,
+          117,
+          117
+        ],
+        "model_answer": "lady gaga",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.9541086554527283,
+          "correct_var": 0.3003842532634735,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "lady",
+            "question token": [
+              "the"
+            ],
+            "var": 0.9541086554527283
+          },
+          "correct_t2t_list": {
+            "original token": "mar",
+            "question token": [
+              "who"
+            ],
+            "var": 0.3003842532634735
+          },
+          "wrong_ans_change": [
+            4,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            10
+          ]
+        }
+      },
+      {
+        "index": 28,
+        "data_id": "56de4b074396321400ee2794",
+        "question": "What architecture type came before Norman in England?",
+        "context": "In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the Early Gothic. In southern Italy, the Normans incorporated elements of Islamic, Lombard, and Byzantine building techniques into their own, initiating a unique style known as Norman-Arab architecture within the Kingdom of Sicily.",
+        "expected_answers": [
+          "Anglo-Saxon",
+          "Anglo-Saxon",
+          "Anglo-Saxon"
+        ],
+        "expected_answer_starts": [
+          79,
+          79,
+          79
+        ],
+        "model_answer": "early gothic",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.052489161491394,
+          "correct_var": 0.5657450556755066,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "gothic",
+            "question token": [
+              "what"
+            ],
+            "var": 1.052489161491394
+          },
+          "correct_t2t_list": {
+            "original token": "saxon",
+            "question token": [
+              "what"
+            ],
+            "var": 0.5657450556755066
+          },
+          "wrong_ans_change": [
+            7,
+            10
+          ],
+          "correct_ans_change": [
+            8,
+            15
+          ]
+        }
+      },
+      {
+        "index": 29,
+        "data_id": "56de4c324396321400ee27ad",
+        "question": "Who commissioned the Tapestry?",
+        "context": "By far the most famous work of Norman art is the Bayeux Tapestry, which is not a tapestry but a work of embroidery. It was commissioned by Odo, the Bishop of Bayeux and first Earl of Kent, employing natives from Kent who were learned in the Nordic traditions imported in the previous half century by the Danish Vikings.",
+        "expected_answers": [
+          "Odo",
+          "Odo",
+          "Odo"
+        ],
+        "expected_answer_starts": [
+          139,
+          139,
+          139
+        ],
+        "model_answer": "odo, the bishop of bayeux and first earl of kent",
+        "correct": false,
+        "f1": 0.19999999999999998,
+        "dp_case": {
+          "wrong_var": 0.5562998652458191,
+          "correct_var": 0.40296268463134766,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "the",
+            "question token": [
+              "who"
+            ],
+            "var": 0.5562998652458191
+          },
+          "correct_t2t_list": {
+            "original token": "o",
+            "question token": [
+              "who"
+            ],
+            "var": 0.40296268463134766
+          },
+          "wrong_ans_change": [
+            13,
+            50
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 32,
+        "data_id": "56dfac8e231d4119001abc5e",
+        "question": "How did Tesla attend the university?",
+        "context": "In January 1880, two of Tesla's uncles put together enough money to help him leave Gospi\u0107 for Prague where he was to study. Unfortunately, he arrived too late to enroll at Charles-Ferdinand University; he never studied Greek, a required subject; and he was illiterate in Czech, another required subject. Tesla did, however, attend lectures at the university, although, as an auditor, he did not receive grades for the courses.",
+        "expected_answers": [
+          "as an auditor",
+          "as an auditor",
+          "as an auditor"
+        ],
+        "expected_answer_starts": [
+          369,
+          369,
+          369
+        ],
+        "model_answer": "lectures",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.4359397888183594,
+          "correct_var": 0.3397202789783478,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "lectures",
+            "question token": [
+              "how"
+            ],
+            "var": 1.4359397888183594
+          },
+          "correct_t2t_list": {
+            "original token": "an",
+            "question token": [
+              "how"
+            ],
+            "var": 0.3397202789783478
+          },
+          "wrong_ans_change": [
+            2,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            15
+          ]
+        }
+      },
+      {
+        "index": 33,
+        "data_id": "56e0d54a7aa994140058e769",
+        "question": "Where did Tesla begin a new job at in 1882?",
+        "context": "In 1882, Tesla began working for the Continental Edison Company in France, designing and making improvements to electrical equipment. In June 1884, he relocated to New York City:57\u201360 where he was hired by Thomas Edison to work at his Edison Machine Works on Manhattan's lower east side. Tesla's work for Edison began with simple electrical engineering and quickly progressed to solving more difficult problems.",
+        "expected_answers": [
+          "Continental Edison Company",
+          "Continental Edison Company",
+          "Continental Edison Company"
+        ],
+        "expected_answer_starts": [
+          37,
+          37,
+          37
+        ],
+        "model_answer": "france",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.1991695165634155,
+          "correct_var": 0.6811596751213074,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "france",
+            "question token": [
+              "where"
+            ],
+            "var": 1.1991695165634155
+          },
+          "correct_t2t_list": {
+            "original token": "company",
+            "question token": [
+              "at"
+            ],
+            "var": 0.6811596751213074
+          },
+          "wrong_ans_change": [
+            4,
+            5
+          ],
+          "correct_ans_change": [
+            2,
+            15
+          ]
+        }
+      },
+      {
+        "index": 36,
+        "data_id": "56e10179cd28a01900c67413",
+        "question": "What did Tesla establish following his Colorado experiments?",
+        "context": "The Colorado experiments had prepared Tesla for the establishment of the trans-Atlantic wireless telecommunications facility known as Wardenclyffe near Shoreham, Long Island.",
+        "expected_answers": [
+          "Wardenclyffe",
+          "Wardenclyffe",
+          "Wardenclyffe"
+        ],
+        "expected_answer_starts": [
+          134,
+          134,
+          134
+        ],
+        "model_answer": "trans - atlantic wireless telecommunications facility",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.0784653425216675,
+          "correct_var": 0.38669177889823914,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "facility",
+            "question token": [
+              "what"
+            ],
+            "var": 1.0784653425216675
+          },
+          "correct_t2t_list": {
+            "original token": "warden",
+            "question token": [
+              "what"
+            ],
+            "var": 0.38669177889823914
+          },
+          "wrong_ans_change": [
+            22,
+            30
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 37,
+        "data_id": "56e10325cd28a01900c67438",
+        "question": "What was the horsepower put out by the turbines in Waterside Power Station",
+        "context": "On his 50th birthday in 1906, Tesla demonstrated his 200 horsepower (150 kilowatts) 16,000 rpm bladeless turbine. During 1910\u20131911 at the Waterside Power Station in New York, several of his bladeless turbine engines were tested at 100\u20135,000 hp.",
+        "expected_answers": [
+          "100\u20135,000 hp",
+          "100\u20135,000",
+          "100\u20135,000"
+        ],
+        "expected_answer_starts": [
+          231,
+          231,
+          231
+        ],
+        "model_answer": "several of his bladeless turbine engines were tested at 100 \u2013 5, 000 hp",
+        "correct": false,
+        "f1": 0.47058823529411764,
+        "dp_case": {
+          "wrong_var": 1.3856741189956665,
+          "correct_var": 0.6797903776168823,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "tested",
+            "question token": [
+              "put"
+            ],
+            "var": 1.3856741189956665
+          },
+          "correct_t2t_list": {
+            "original token": "100",
+            "question token": [
+              "the"
+            ],
+            "var": 0.6797903776168823
+          },
+          "wrong_ans_change": [
+            14,
+            70
+          ],
+          "correct_ans_change": [
+            4,
+            20
+          ]
+        }
+      },
+      {
+        "index": 39,
+        "data_id": "56e11044e3433e1400422b78",
+        "question": "According to Tesla what had been gone over by the thieves, or spies who entered his room?",
+        "context": "During the period in which the negotiations were being conducted, Tesla said that efforts had been made to steal the invention. His room had been entered and his papers had been scrutinized, but the thieves, or spies, left empty-handed. He said that there was no danger that his invention could be stolen, for he had at no time committed any part of it to paper; the blueprint for the teleforce weapon was all in his mind.",
+        "expected_answers": [
+          "his papers",
+          "his papers",
+          "his papers"
+        ],
+        "expected_answer_starts": [
+          158,
+          158,
+          158
+        ],
+        "model_answer": "empty - handed",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.6048426032066345,
+          "correct_var": 0.6103512644767761,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "empty",
+            "question token": [
+              "over"
+            ],
+            "var": 0.6048426032066345
+          },
+          "correct_t2t_list": {
+            "original token": "papers",
+            "question token": [
+              "what"
+            ],
+            "var": 0.6103512644767761
+          },
+          "wrong_ans_change": [
+            1,
+            15
+          ],
+          "correct_ans_change": [
+            2,
+            10
+          ]
+        }
+      },
+      {
+        "index": 40,
+        "data_id": "56e1127bcd28a01900c6754d",
+        "question": "When are the ashes now?",
+        "context": "In 1952, following pressure from Tesla's nephew, Sava Kosanovi\u0107, Tesla's entire estate was shipped to Belgrade in 80 trunks marked N.T. In 1957, Kosanovi\u0107's secretary Charlotte Muzar transported Tesla's ashes from the United States to Belgrade. The ashes are displayed in a gold-plated sphere on a marble pedestal in the Nikola Tesla Museum.",
+        "expected_answers": [
+          "Nikola Tesla Museum",
+          "the Nikola Tesla Museum",
+          "the Nikola Tesla Museum"
+        ],
+        "expected_answer_starts": [
+          321,
+          317,
+          317
+        ],
+        "model_answer": "belgrade",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.6121395230293274,
+          "correct_var": 0.21699459850788116,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "belgrade",
+            "question token": [
+              "?"
+            ],
+            "var": 0.6121395230293274
+          },
+          "correct_t2t_list": {
+            "original token": "museum",
+            "question token": [
+              "?"
+            ],
+            "var": 0.21699459850788116
+          },
+          "wrong_ans_change": [
+            3,
+            5
+          ],
+          "correct_ans_change": [
+            8,
+            15
+          ]
+        }
+      },
+      {
+        "index": 42,
+        "data_id": "56e11ba9cd28a01900c675db",
+        "question": "To what place did he bring the injured pigeons to take care of them?",
+        "context": "Near the end of his life, Tesla walked to the park every day to feed the pigeons and even brought injured ones into his hotel room to nurse back to health. He said that he had been visited by a specific injured white pigeon daily. Tesla spent over $2,000, including building a device that comfortably supported her so her bones could heal, to fix her broken wing and leg. Tesla stated,",
+        "expected_answers": [
+          "hotel room",
+          "his hotel room",
+          "his hotel room"
+        ],
+        "expected_answer_starts": [
+          120,
+          116,
+          116
+        ],
+        "model_answer": "the park",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.5532251596450806,
+          "correct_var": 1.0113472938537598,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "the",
+            "question token": [
+              "what"
+            ],
+            "var": 1.5532251596450806
+          },
+          "correct_t2t_list": {
+            "original token": "hotel",
+            "question token": [
+              "what"
+            ],
+            "var": 1.0113472938537598
+          },
+          "wrong_ans_change": [
+            3,
+            10
+          ],
+          "correct_ans_change": [
+            9,
+            10
+          ]
+        }
+      },
+      {
+        "index": 43,
+        "data_id": "56e1239acd28a01900c67641",
+        "question": "Who did Tesla think would run the world of the future?",
+        "context": "In 1926, Tesla commented on the ills of the social subservience of women and the struggle of women toward gender equality, and indicated that humanity's future would be run by \"Queen Bees.\" He believed that women would become the dominant sex in the future.",
+        "expected_answers": [
+          "women",
+          "women",
+          "women"
+        ],
+        "expected_answer_starts": [
+          67,
+          207,
+          207
+        ],
+        "model_answer": "queen bees",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.8599576950073242,
+          "correct_var": 0.3262503743171692,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "bees",
+            "question token": [
+              "who"
+            ],
+            "var": 0.8599576950073242
+          },
+          "correct_t2t_list": {
+            "original token": "women",
+            "question token": [
+              "the"
+            ],
+            "var": 0.3262503743171692
+          },
+          "wrong_ans_change": [
+            1,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 44,
+        "data_id": "56e125b6e3433e1400422c6d",
+        "question": "Who published Tesla's writings?",
+        "context": "Tesla wrote a number of books and articles for magazines and journals. Among his books are My Inventions: The Autobiography of Nikola Tesla, compiled and edited by Ben Johnston; The Fantastic Inventions of Nikola Tesla, compiled and edited by David Hatcher Childress; and The Tesla Papers.",
+        "expected_answers": [
+          "magazines and journals",
+          "magazines and journals",
+          "magazines and journals"
+        ],
+        "expected_answer_starts": [
+          47,
+          47,
+          47
+        ],
+        "model_answer": "ben johnston",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.23001597821712494,
+          "correct_var": 0.4389089047908783,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "johnston",
+            "question token": [
+              "who"
+            ],
+            "var": 0.23001597821712494
+          },
+          "correct_t2t_list": {
+            "original token": "and",
+            "question token": [
+              "published"
+            ],
+            "var": 0.4389089047908783
+          },
+          "wrong_ans_change": [
+            2,
+            10
+          ],
+          "correct_ans_change": [
+            2,
+            15
+          ]
+        }
+      },
+      {
+        "index": 45,
+        "data_id": "56e181d9e3433e1400422fa0",
+        "question": "In a computational problem, what can be described as a string over an alphabet?",
+        "context": "When considering computational problems, a problem instance is a string over an alphabet. Usually, the alphabet is taken to be the binary alphabet (i.e., the set {0,1}), and thus the strings are bitstrings. As in a real-world computer, mathematical objects other than bitstrings must be suitably encoded. For example, integers can be represented in binary notation, and graphs can be encoded directly via their adjacency matrices, or by encoding their adjacency lists in binary.",
+        "expected_answers": [
+          "problem instance",
+          "a problem instance",
+          "problem instance"
+        ],
+        "expected_answer_starts": [
+          43,
+          41,
+          43
+        ],
+        "model_answer": "bitstrings",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.0253623723983765,
+          "correct_var": 1.7461904287338257,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "bits",
+            "question token": [
+              "what"
+            ],
+            "var": 1.0253623723983765
+          },
+          "correct_t2t_list": {
+            "original token": "instance",
+            "question token": [
+              "what"
+            ],
+            "var": 1.7461904287338257
+          },
+          "wrong_ans_change": [
+            0,
+            5
+          ],
+          "correct_ans_change": [
+            7,
+            10
+          ]
+        }
+      },
+      {
+        "index": 46,
+        "data_id": "56e1a564cd28a01900c67a4a",
+        "question": "What term corresponds to the maximum measurement of time across all functions of n? ",
+        "context": "If the input size is n, the time taken can be expressed as a function of n. Since the time taken on different inputs of the same size can be different, the worst-case time complexity T(n) is defined to be the maximum time taken over all inputs of size n. If T(n) is a polynomial in n, then the algorithm is said to be a polynomial time algorithm. Cobham's thesis says that a problem can be solved with a feasible amount of resources if it admits a polynomial time algorithm.",
+        "expected_answers": [
+          "worst-case time complexity",
+          "worst-case time complexity",
+          "the worst-case time complexity"
+        ],
+        "expected_answer_starts": [
+          156,
+          156,
+          152
+        ],
+        "model_answer": "t ( n )",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.6600307822227478,
+          "correct_var": 0.7883042097091675,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "t",
+            "question token": [
+              "what"
+            ],
+            "var": 0.6600307822227478
+          },
+          "correct_t2t_list": {
+            "original token": "complexity",
+            "question token": [
+              "what"
+            ],
+            "var": 0.7883042097091675
+          },
+          "wrong_ans_change": [
+            6,
+            10
+          ],
+          "correct_ans_change": [
+            2,
+            25
+          ]
+        }
+      },
+      {
+        "index": 47,
+        "data_id": "56e1b00ce3433e14004230a1",
+        "question": "In the determination of complexity classes, what are two examples of types of Turing machines?",
+        "context": "Many types of Turing machines are used to define complexity classes, such as deterministic Turing machines, probabilistic Turing machines, non-deterministic Turing machines, quantum Turing machines, symmetric Turing machines and alternating Turing machines. They are all equally powerful in principle, but when resources (such as time or space) are bounded, some of these may be more powerful than others.",
+        "expected_answers": [
+          "probabilistic Turing machines, non-deterministic Turing machines",
+          "probabilistic Turing machines, non-deterministic Turing machines"
+        ],
+        "expected_answer_starts": [
+          108,
+          108
+        ],
+        "model_answer": "deterministic turing machines, probabilistic turing machines, non - deterministic turing machines, quantum turing machines, symmetric turing machines and alternating turing machines",
+        "correct": false,
+        "f1": 0.5185185185185185,
+        "dp_case": {
+          "wrong_var": 0.37680530548095703,
+          "correct_var": 0.23726999759674072,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "quantum",
+            "question token": [
+              "what"
+            ],
+            "var": 0.37680530548095703
+          },
+          "correct_t2t_list": {
+            "original token": "pro",
+            "question token": [
+              "what"
+            ],
+            "var": 0.23726999759674072
+          },
+          "wrong_ans_change": [
+            1,
+            105
+          ],
+          "correct_ans_change": [
+            0,
+            40
+          ]
+        }
+      },
+      {
+        "index": 48,
+        "data_id": "56e1b169cd28a01900c67a73",
+        "question": "In considering Turing machines and alternate variables, what measurement left unaffected by conversion between machine models? ",
+        "context": "Many machine models different from the standard multi-tape Turing machines have been proposed in the literature, for example random access machines. Perhaps surprisingly, each of these models can be converted to another without providing any extra computational power. The time and memory consumption of these alternate models may vary. What all these models have in common is that the machines operate deterministically.",
+        "expected_answers": [
+          "computational power",
+          "computational power",
+          "computational power"
+        ],
+        "expected_answer_starts": [
+          248,
+          248,
+          248
+        ],
+        "model_answer": "memory consumption",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.3946526050567627,
+          "correct_var": 0.6521355509757996,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "memory",
+            "question token": [
+              "measurement"
+            ],
+            "var": 1.3946526050567627
+          },
+          "correct_t2t_list": {
+            "original token": "computational",
+            "question token": [
+              "by"
+            ],
+            "var": 0.6521355509757996
+          },
+          "wrong_ans_change": [
+            6,
+            10
+          ],
+          "correct_ans_change": [
+            1,
+            10
+          ]
+        }
+      },
+      {
+        "index": 49,
+        "data_id": "56e1b754cd28a01900c67abd",
+        "question": "A complexity resource can also be described as what other type of resource?",
+        "context": "Analogous definitions can be made for space requirements. Although time and space are the most well-known complexity resources, any complexity measure can be viewed as a computational resource. Complexity measures are very generally defined by the Blum complexity axioms. Other complexity measures used in complexity theory include communication complexity, circuit complexity, and decision tree complexity.",
+        "expected_answers": [
+          "computational resource",
+          "computational",
+          "computational"
+        ],
+        "expected_answer_starts": [
+          170,
+          170,
+          170
+        ],
+        "model_answer": "space requirements",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.8222160339355469,
+          "correct_var": 1.2612907886505127,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "requirements",
+            "question token": [
+              "?"
+            ],
+            "var": 0.8222160339355469
+          },
+          "correct_t2t_list": {
+            "original token": "computational",
+            "question token": [
+              "what"
+            ],
+            "var": 1.2612907886505127
+          },
+          "wrong_ans_change": [
+            9,
+            10
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 50,
+        "data_id": "56e1b8f3e3433e14004230e9",
+        "question": "Case complexities provide three likelihoods of what differing variable that remains the same size? ",
+        "context": "The best, worst and average case complexity refer to three different ways of measuring the time complexity (or any other complexity measure) of different inputs of the same size. Since some inputs of size n may be faster to solve than others, we define the following complexities:",
+        "expected_answers": [
+          "inputs",
+          "inputs",
+          "inputs"
+        ],
+        "expected_answer_starts": [
+          154,
+          154,
+          154
+        ],
+        "model_answer": "time complexity",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.7611440420150757,
+          "correct_var": 1.2685329914093018,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "time",
+            "question token": [
+              "the"
+            ],
+            "var": 0.7611440420150757
+          },
+          "correct_t2t_list": {
+            "original token": "inputs",
+            "question token": [
+              "variable"
+            ],
+            "var": 1.2685329914093018
+          },
+          "wrong_ans_change": [
+            8,
+            10
+          ],
+          "correct_ans_change": [
+            1,
+            5
+          ]
+        }
+      },
+      {
+        "index": 52,
+        "data_id": "56e20a27cd28a01900c67c25",
+        "question": "In the effort of maintaining a level of abstraction, what choice is typically left independent?",
+        "context": "Even though some proofs of complexity-theoretic theorems regularly assume some concrete choice of input encoding, one tries to keep the discussion abstract enough to be independent of the choice of encoding. This can be achieved by ensuring that different representations can be transformed into each other efficiently.",
+        "expected_answers": [
+          "encoding",
+          "encoding",
+          "encoding"
+        ],
+        "expected_answer_starts": [
+          104,
+          198,
+          198
+        ],
+        "model_answer": "input encoding, one tries to keep the discussion abstract enough to be independent of the choice of encoding",
+        "correct": false,
+        "f1": 0.11764705882352941,
+        "dp_case": {
+          "wrong_var": 2.6858785152435303,
+          "correct_var": 1.7507469654083252,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "independent",
+            "question token": [
+              "left"
+            ],
+            "var": 2.6858785152435303
+          },
+          "correct_t2t_list": {
+            "original token": "encoding",
+            "question token": [
+              "the"
+            ],
+            "var": 1.7507469654083252
+          },
+          "wrong_ans_change": [
+            48,
+            90
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 53,
+        "data_id": "56e748a200c9c71400d76f3a",
+        "question": "What type of teaching would help the most with everyday life?",
+        "context": "A teacher's role may vary among cultures. Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills.",
+        "expected_answers": [
+          "life skills",
+          "life skills",
+          "life skills"
+        ],
+        "expected_answer_starts": [
+          187,
+          187,
+          187
+        ],
+        "model_answer": "literacy and numeracy, craftsmanship or vocational training",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.48328372836112976,
+          "correct_var": 0.536276638507843,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "literacy",
+            "question token": [
+              "what"
+            ],
+            "var": 0.48328372836112976
+          },
+          "correct_t2t_list": {
+            "original token": "skills",
+            "question token": [
+              "?"
+            ],
+            "var": 0.536276638507843
+          },
+          "wrong_ans_change": [
+            31,
+            35
+          ],
+          "correct_ans_change": [
+            1,
+            10
+          ]
+        }
+      },
+      {
+        "index": 54,
+        "data_id": "56e749dd00c9c71400d76f52",
+        "question": "If someone is being taught at their place of residence, what is it called?",
+        "context": "In some countries, formal education can take place through home schooling. Informal learning may be assisted by a teacher occupying a transient or ongoing role, such as a family member, or by anyone with knowledge or skills in the wider community setting.",
+        "expected_answers": [
+          "home schooling",
+          "home schooling",
+          "home schooling"
+        ],
+        "expected_answer_starts": [
+          59,
+          59,
+          59
+        ],
+        "model_answer": "informal",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.4841822385787964,
+          "correct_var": 0.668721616268158,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "informal",
+            "question token": [
+              "what"
+            ],
+            "var": 1.4841822385787964
+          },
+          "correct_t2t_list": {
+            "original token": "schooling",
+            "question token": [
+              "what"
+            ],
+            "var": 0.668721616268158
+          },
+          "wrong_ans_change": [
+            3,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            10
+          ]
+        }
+      },
+      {
+        "index": 55,
+        "data_id": "56e74d1f00c9c71400d76f70",
+        "question": "What would type of studying would require a teacher to take on a supervisor role?",
+        "context": "A teacher's professional duties may extend beyond formal teaching. Outside of the classroom teachers may accompany students on field trips, supervise study halls, help with the organization of school functions, and serve as supervisors for extracurricular activities. In some education systems, teachers may have responsibility for student discipline.",
+        "expected_answers": [
+          "study halls",
+          "study halls"
+        ],
+        "expected_answer_starts": [
+          150,
+          150
+        ],
+        "model_answer": "extracurricular activities",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.0677849054336548,
+          "correct_var": 1.3305059671401978,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "activities",
+            "question token": [
+              "studying"
+            ],
+            "var": 1.0677849054336548
+          },
+          "correct_t2t_list": {
+            "original token": "halls",
+            "question token": [
+              "a"
+            ],
+            "var": 1.3305059671401978
+          },
+          "wrong_ans_change": [
+            1,
+            10
+          ],
+          "correct_ans_change": [
+            1,
+            10
+          ]
+        }
+      },
+      {
+        "index": 56,
+        "data_id": "56e74e4800c9c71400d76f77",
+        "question": "Why would a teacher's college exist?",
+        "context": "There are a variety of bodies designed to instill, preserve and update the knowledge and professional standing of teachers. Around the world many governments operate teacher's colleges, which are generally established to serve and protect the public interest through certifying, governing and enforcing the standards of practice for the teaching profession.",
+        "expected_answers": [
+          "to serve and protect the public interest",
+          "serve and protect the public",
+          "to serve and protect the public interest"
+        ],
+        "expected_answer_starts": [
+          218,
+          221,
+          218
+        ],
+        "model_answer": "to serve and protect the public interest through certifying, governing and enforcing the standards of practice for the teaching profession",
+        "correct": false,
+        "f1": 0.5217391304347826,
+        "dp_case": {
+          "wrong_var": 1.1654239892959595,
+          "correct_var": 0.8846535086631775,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "to",
+            "question token": [
+              "why"
+            ],
+            "var": 1.1654239892959595
+          },
+          "correct_t2t_list": {
+            "original token": "serve",
+            "question token": [
+              "why"
+            ],
+            "var": 0.8846535086631775
+          },
+          "wrong_ans_change": [
+            38,
+            100
+          ],
+          "correct_ans_change": [
+            13,
+            25
+          ]
+        }
+      },
+      {
+        "index": 57,
+        "data_id": "56e7504437bdd419002c3e5d",
+        "question": "Where is another indoor location for a teacher other than a school?",
+        "context": "In education, teachers facilitate student learning, often in a school or academy or perhaps in another environment such as outdoors. A teacher who teaches on an individual basis may be described as a tutor.",
+        "expected_answers": [
+          "academy",
+          "academy",
+          "academy"
+        ],
+        "expected_answer_starts": [
+          73,
+          73,
+          73
+        ],
+        "model_answer": "outdoors",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.878503680229187,
+          "correct_var": 1.0271574258804321,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "outdoors",
+            "question token": [
+              "indoor"
+            ],
+            "var": 1.878503680229187
+          },
+          "correct_t2t_list": {
+            "original token": "academy",
+            "question token": [
+              "indoor"
+            ],
+            "var": 1.0271574258804321
+          },
+          "wrong_ans_change": [
+            3,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 58,
+        "data_id": "56e7578a37bdd419002c3eac",
+        "question": "How common of a type was corporal punishment in schools?",
+        "context": "Throughout the history of education the most common form of school discipline was corporal punishment. While a child was in school, a teacher was expected to act as a substitute parent, with all the normal forms of parental discipline open to them.",
+        "expected_answers": [
+          "the most common",
+          "most common",
+          "most common"
+        ],
+        "expected_answer_starts": [
+          36,
+          40,
+          40
+        ],
+        "model_answer": "most common form of school discipline",
+        "correct": false,
+        "f1": 0.5,
+        "dp_case": {
+          "wrong_var": 3.310565948486328,
+          "correct_var": 2.2400543689727783,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "form",
+            "question token": [
+              "type"
+            ],
+            "var": 3.310565948486328
+          },
+          "correct_t2t_list": {
+            "original token": "common",
+            "question token": [
+              "type"
+            ],
+            "var": 2.2400543689727783
+          },
+          "wrong_ans_change": [
+            11,
+            30
+          ],
+          "correct_ans_change": [
+            5,
+            10
+          ]
+        }
+      },
+      {
+        "index": 61,
+        "data_id": "56e76ea737bdd419002c3f9e",
+        "question": "What may also be required of teachers, in some areas?",
+        "context": "Teaching in Canada requires a post-secondary degree Bachelor's Degree. In most provinces a second Bachelor's Degree such as a Bachelor of Education is required to become a qualified teacher. Salary ranges from $40,000/year to $90,000/yr. Teachers have the option to teach for a public school which is funded by the provincial government or teaching in a private school which is funded by the private sector, businesses and sponsors.",
+        "expected_answers": [
+          "a second Bachelor's Degree such as a Bachelor of Education",
+          "a second Bachelor's Degree",
+          "a second Bachelor's Degree"
+        ],
+        "expected_answer_starts": [
+          89,
+          89,
+          89
+        ],
+        "model_answer": "a public school which is funded by the provincial government or teaching in a private school which is funded by the private sector, businesses and sponsors",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 2.6724979877471924,
+          "correct_var": 0.48239246010780334,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "or",
+            "question token": [
+              "what"
+            ],
+            "var": 2.6724979877471924
+          },
+          "correct_t2t_list": {
+            "original token": "degree",
+            "question token": [
+              "what"
+            ],
+            "var": 0.48239246010780334
+          },
+          "wrong_ans_change": [
+            39,
+            130
+          ],
+          "correct_ans_change": [
+            7,
+            25
+          ]
+        }
+      },
+      {
+        "index": 62,
+        "data_id": "56e76f7000c9c71400d7712d",
+        "question": "Where are teachers recruited from?",
+        "context": "In Germany, teachers are mainly civil servants recruited in special university classes, called Lehramtstudien (Teaching Education Studies). There are many differences between the teachers for elementary schools (Grundschule), lower secondary schools (Hauptschule), middle level secondary schools (Realschule) and higher level secondary schools (Gymnasium). Salaries for teachers depend on the civil servants' salary index scale (Bundesbesoldungsordnung).",
+        "expected_answers": [
+          "Lehramtstudien (Teaching Education Studies)",
+          "Lehramtstudien",
+          "special university classes"
+        ],
+        "expected_answer_starts": [
+          95,
+          95,
+          60
+        ],
+        "model_answer": "germany",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.7426373362541199,
+          "correct_var": 0.14782314002513885,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "germany",
+            "question token": [
+              "where"
+            ],
+            "var": 0.7426373362541199
+          },
+          "correct_t2t_list": {
+            "original token": "le",
+            "question token": [
+              "where"
+            ],
+            "var": 0.14782314002513885
+          },
+          "wrong_ans_change": [
+            5,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 63,
+        "data_id": "56f7f2e0aef2371900625cb3",
+        "question": "Where did Luther spend his career?",
+        "context": "On 19 October 1512, he was awarded his Doctor of Theology and, on 21 October 1512, was received into the senate of the theological faculty of the University of Wittenberg, having been called to the position of Doctor in Bible. He spent the rest of his career in this position at the University of Wittenberg.",
+        "expected_answers": [
+          "University of Wittenberg",
+          "University of Wittenberg",
+          "University of Wittenberg."
+        ],
+        "expected_answer_starts": [
+          283,
+          283,
+          283
+        ],
+        "model_answer": "university of wittenberg, having been called to the position of doctor in bible. he spent the rest of his career in this position at the university of wittenberg",
+        "correct": false,
+        "f1": 0.21428571428571425,
+        "dp_case": {
+          "wrong_var": 1.987449288368225,
+          "correct_var": 0.8521682024002075,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "he",
+            "question token": [
+              "luther"
+            ],
+            "var": 1.987449288368225
+          },
+          "correct_t2t_list": {
+            "original token": "university",
+            "question token": [
+              "luther"
+            ],
+            "var": 0.8521682024002075
+          },
+          "wrong_ans_change": [
+            98,
+            140
+          ],
+          "correct_ans_change": [
+            14,
+            15
+          ]
+        }
+      },
+      {
+        "index": 64,
+        "data_id": "56f802c6a6d7ea1400e1737a",
+        "question": "What did Luther call these donations?",
+        "context": "He insisted that, since forgiveness was God's alone to grant, those who claimed that indulgences absolved buyers from all punishments and granted them salvation were in error. Christians, he said, must not slacken in following Christ on account of such false assurances.",
+        "expected_answers": [
+          "false assurances",
+          "false assurances",
+          "false assurances."
+        ],
+        "expected_answer_starts": [
+          253,
+          253,
+          253
+        ],
+        "model_answer": "error",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.3641632795333862,
+          "correct_var": 0.8803617358207703,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "error",
+            "question token": [
+              "what"
+            ],
+            "var": 1.3641632795333862
+          },
+          "correct_t2t_list": {
+            "original token": "false",
+            "question token": [
+              "donations"
+            ],
+            "var": 0.8803617358207703
+          },
+          "wrong_ans_change": [
+            1,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            10
+          ]
+        }
+      },
+      {
+        "index": 66,
+        "data_id": "56f8094aa6d7ea1400e17393",
+        "question": "What part of Luther's career was one of his most productive?",
+        "context": "Luther's writings circulated widely, reaching France, England, and Italy as early as 1519. Students thronged to Wittenberg to hear Luther speak. He published a short commentary on Galatians and his Work on the Psalms. This early part of Luther's career was one of his most creative and productive. Three of his best-known works were published in 1520: To the Christian Nobility of the German Nation, On the Babylonian Captivity of the Church, and On the Freedom of a Christian.",
+        "expected_answers": [
+          "early part",
+          "early",
+          "early"
+        ],
+        "expected_answer_starts": [
+          223,
+          223,
+          223
+        ],
+        "model_answer": "a short commentary on galatians and his work on the psalms",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.9369909167289734,
+          "correct_var": 1.0357774496078491,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "on",
+            "question token": [
+              "what"
+            ],
+            "var": 0.9369909167289734
+          },
+          "correct_t2t_list": {
+            "original token": "early",
+            "question token": [
+              "part"
+            ],
+            "var": 1.0357774496078491
+          },
+          "wrong_ans_change": [
+            42,
+            55
+          ],
+          "correct_ans_change": [
+            2,
+            5
+          ]
+        }
+      },
+      {
+        "index": 67,
+        "data_id": "56f80fdfaef2371900625d95",
+        "question": "To whom did Luther send a letter containing his 95 Theses?",
+        "context": "Archbishop Albrecht of Mainz and Magdeburg did not reply to Luther's letter containing the 95 Theses. He had the theses checked for heresy and in December 1517 forwarded them to Rome. He needed the revenue from the indulgences to pay off a papal dispensation for his tenure of more than one bishopric. As Luther later noted, \"the pope had a finger in the pie as well, because one half was to go to the building of St Peter's Church in Rome\".",
+        "expected_answers": [
+          "Archbishop Albrecht",
+          "Archbishop Albrecht",
+          "Archbishop Albrecht of Mainz and Magdeburg"
+        ],
+        "expected_answer_starts": [
+          0,
+          0,
+          0
+        ],
+        "model_answer": "rome",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.7224659323692322,
+          "correct_var": 0.6125353574752808,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "rome",
+            "question token": [
+              "95"
+            ],
+            "var": 0.7224659323692322
+          },
+          "correct_t2t_list": {
+            "original token": "archbishop",
+            "question token": [
+              "?"
+            ],
+            "var": 0.6125353574752808
+          },
+          "wrong_ans_change": [
+            5,
+            5
+          ],
+          "correct_ans_change": [
+            1,
+            10
+          ]
+        }
+      },
+      {
+        "index": 68,
+        "data_id": "56f80fdfaef2371900625d97",
+        "question": "What did Albrecht need the indulgences to pay for?",
+        "context": "Archbishop Albrecht of Mainz and Magdeburg did not reply to Luther's letter containing the 95 Theses. He had the theses checked for heresy and in December 1517 forwarded them to Rome. He needed the revenue from the indulgences to pay off a papal dispensation for his tenure of more than one bishopric. As Luther later noted, \"the pope had a finger in the pie as well, because one half was to go to the building of St Peter's Church in Rome\".",
+        "expected_answers": [
+          "papal dispensation",
+          "papal dispensation",
+          "pay off a papal dispensation for his tenure"
+        ],
+        "expected_answer_starts": [
+          240,
+          240,
+          230
+        ],
+        "model_answer": "a papal dispensation for his tenure of more than one bishopric",
+        "correct": false,
+        "f1": 0.588235294117647,
+        "dp_case": {
+          "wrong_var": 1.12074875831604,
+          "correct_var": 0.677004337310791,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "his",
+            "question token": [
+              "what"
+            ],
+            "var": 1.12074875831604
+          },
+          "correct_t2t_list": {
+            "original token": "papal",
+            "question token": [
+              "what"
+            ],
+            "var": 0.677004337310791
+          },
+          "wrong_ans_change": [
+            9,
+            55
+          ],
+          "correct_ans_change": [
+            1,
+            10
+          ]
+        }
+      },
+      {
+        "index": 69,
+        "data_id": "56f82454a6d7ea1400e173ff",
+        "question": "How did Luther respond after being asked if the books were his?",
+        "context": "Johann Eck, speaking on behalf of the Empire as assistant of the Archbishop of Trier, presented Luther with copies of his writings laid out on a table and asked him if the books were his, and whether he stood by their contents. Luther confirmed he was their author, but requested time to think about the answer to the second question. He prayed, consulted friends, and gave his response the next day:",
+        "expected_answers": [
+          "confirmed",
+          "confirmed",
+          "confirmed"
+        ],
+        "expected_answer_starts": [
+          235,
+          235,
+          235
+        ],
+        "model_answer": "whether he stood by their contents",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.6879618763923645,
+          "correct_var": 0.8055859804153442,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "their",
+            "question token": [
+              "how"
+            ],
+            "var": 0.6879618763923645
+          },
+          "correct_t2t_list": {
+            "original token": "confirmed",
+            "question token": [
+              "luther"
+            ],
+            "var": 0.8055859804153442
+          },
+          "wrong_ans_change": [
+            28,
+            30
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 70,
+        "data_id": "56f826a7a6d7ea1400e17429",
+        "question": "Why is the statement doubtful in the eyes of scholars?",
+        "context": "Luther refused to recant his writings. He is sometimes also quoted as saying: \"Here I stand. I can do no other\". Recent scholars consider the evidence for these words to be unreliable, since they were inserted before \"May God help me\" only in later versions of the speech and not recorded in witness accounts of the proceedings. However, Mullett suggests that given his nature, \"we are free to believe that Luther would tend to select the more dramatic form of words.\"",
+        "expected_answers": [
+          "not recorded",
+          "not recorded in witness accounts",
+          "not recorded in witness accounts"
+        ],
+        "expected_answer_starts": [
+          276,
+          276,
+          276
+        ],
+        "model_answer": "they were inserted before \" may god help me \" only in later versions of the speech and not recorded in witness accounts of the proceedings",
+        "correct": false,
+        "f1": 0.37037037037037035,
+        "dp_case": {
+          "wrong_var": 0.8777839541435242,
+          "correct_var": 0.6753309965133667,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "in",
+            "question token": [
+              "why"
+            ],
+            "var": 0.8777839541435242
+          },
+          "correct_t2t_list": {
+            "original token": "recorded",
+            "question token": [
+              "the"
+            ],
+            "var": 0.6753309965133667
+          },
+          "wrong_ans_change": [
+            4,
+            120
+          ],
+          "correct_ans_change": [
+            0,
+            10
+          ]
+        }
+      },
+      {
+        "index": 71,
+        "data_id": "56f84a60aef2371900625fa0",
+        "question": "What did Schurf's letter say  Luther's return caused?",
+        "context": "The effect of Luther's intervention was immediate. After the sixth sermon, the Wittenberg jurist Jerome Schurf wrote to the elector: \"Oh, what joy has Dr. Martin's return spread among us! His words, through divine mercy, are bringing back every day misguided people into the way of the truth.\"",
+        "expected_answers": [
+          "joy",
+          "joy",
+          "joy"
+        ],
+        "expected_answer_starts": [
+          143,
+          143,
+          143
+        ],
+        "model_answer": "every day misguided people into the way of the truth",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.4051162898540497,
+          "correct_var": 0.7061523199081421,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "way",
+            "question token": [
+              "what"
+            ],
+            "var": 0.4051162898540497
+          },
+          "correct_t2t_list": {
+            "original token": "joy",
+            "question token": [
+              "what"
+            ],
+            "var": 0.7061523199081421
+          },
+          "wrong_ans_change": [
+            17,
+            50
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 72,
+        "data_id": "56f84b68aef2371900625fab",
+        "question": "Besides the radicals who else did Luther have to deal with?",
+        "context": "Luther next set about reversing or modifying the new church practices. By working alongside the authorities to restore public order, he signalled his reinvention as a conservative force within the Reformation. After banishing the Zwickau prophets, he now faced a battle against not only the established Church but also the radical reformers who threatened the new order by fomenting social unrest and violence.",
+        "expected_answers": [
+          "established Church",
+          "the established Church",
+          "established Church"
+        ],
+        "expected_answer_starts": [
+          291,
+          287,
+          291
+        ],
+        "model_answer": "the established church but also the radical reformers",
+        "correct": false,
+        "f1": 0.5,
+        "dp_case": {
+          "wrong_var": 4.241100788116455,
+          "correct_var": 0.3601677119731903,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "radical",
+            "question token": [
+              "radicals"
+            ],
+            "var": 4.241100788116455
+          },
+          "correct_t2t_list": {
+            "original token": "church",
+            "question token": [
+              "radicals"
+            ],
+            "var": 0.3601677119731903
+          },
+          "wrong_ans_change": [
+            25,
+            40
+          ],
+          "correct_ans_change": [
+            6,
+            10
+          ]
+        }
+      },
+      {
+        "index": 74,
+        "data_id": "56f86d30a6d7ea1400e17607",
+        "question": "What group did Luther want to understand his works?",
+        "context": "Luther's translation used the variant of German spoken at the Saxon chancellery, intelligible to both northern and southern Germans. He intended his vigorous, direct language to make the Bible accessible to everyday Germans, \"for we are removing impediments and difficulties so that other people may read it without hindrance.\"",
+        "expected_answers": [
+          "everyday Germans",
+          "everyday Germans",
+          "everyday Germans"
+        ],
+        "expected_answer_starts": [
+          207,
+          207,
+          207
+        ],
+        "model_answer": "northern and southern germans. he intended his vigorous, direct language to make the bible accessible to everyday germans",
+        "correct": false,
+        "f1": 0.21052631578947367,
+        "dp_case": {
+          "wrong_var": 0.7669673562049866,
+          "correct_var": 0.6271387338638306,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "he",
+            "question token": [
+              "luther"
+            ],
+            "var": 0.7669673562049866
+          },
+          "correct_t2t_list": {
+            "original token": "germans",
+            "question token": [
+              "what"
+            ],
+            "var": 0.6271387338638306
+          },
+          "wrong_ans_change": [
+            48,
+            90
+          ],
+          "correct_ans_change": [
+            10,
+            10
+          ]
+        }
+      },
+      {
+        "index": 75,
+        "data_id": "56f88025aef237190062611f",
+        "question": "How many hymns of Luther were included in the Achtliederbuch?",
+        "context": "Luther's hymns were included in early Lutheran hymnals and spread the ideas of the Reformation. He supplied four of eight songs of the First Lutheran hymnal Achtliederbuch, 18 of 26 songs of the Erfurt Enchiridion, and 24 of the 32 songs in the first choral hymnal with settings by Johann Walter, Eyn geystlich Gesangk Buchleyn, all published in 1524.",
+        "expected_answers": [
+          "four",
+          "four",
+          "four"
+        ],
+        "expected_answer_starts": [
+          108,
+          108,
+          108
+        ],
+        "model_answer": "four of eight",
+        "correct": false,
+        "f1": 0.5,
+        "dp_case": {
+          "wrong_var": 0.7492366433143616,
+          "correct_var": 0.625299870967865,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "eight",
+            "question token": [
+              "many"
+            ],
+            "var": 0.7492366433143616
+          },
+          "correct_t2t_list": {
+            "original token": "four",
+            "question token": [
+              "how"
+            ],
+            "var": 0.625299870967865
+          },
+          "wrong_ans_change": [
+            11,
+            15
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 77,
+        "data_id": "56f88025aef2371900626121",
+        "question": "How many hymns did Luther write for the first choral hymnal?",
+        "context": "Luther's hymns were included in early Lutheran hymnals and spread the ideas of the Reformation. He supplied four of eight songs of the First Lutheran hymnal Achtliederbuch, 18 of 26 songs of the Erfurt Enchiridion, and 24 of the 32 songs in the first choral hymnal with settings by Johann Walter, Eyn geystlich Gesangk Buchleyn, all published in 1524.",
+        "expected_answers": [
+          "24",
+          "24",
+          "24"
+        ],
+        "expected_answer_starts": [
+          219,
+          219,
+          219
+        ],
+        "model_answer": "24 of the 32",
+        "correct": false,
+        "f1": 0.5,
+        "dp_case": {
+          "wrong_var": 0.5231914520263672,
+          "correct_var": 0.4943767488002777,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "32",
+            "question token": [
+              "how"
+            ],
+            "var": 0.5231914520263672
+          },
+          "correct_t2t_list": {
+            "original token": "24",
+            "question token": [
+              "how"
+            ],
+            "var": 0.4943767488002777
+          },
+          "wrong_ans_change": [
+            13,
+            20
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 78,
+        "data_id": "56f88025aef2371900626122",
+        "question": "What was the title of the first choral hymnal?",
+        "context": "Luther's hymns were included in early Lutheran hymnals and spread the ideas of the Reformation. He supplied four of eight songs of the First Lutheran hymnal Achtliederbuch, 18 of 26 songs of the Erfurt Enchiridion, and 24 of the 32 songs in the first choral hymnal with settings by Johann Walter, Eyn geystlich Gesangk Buchleyn, all published in 1524.",
+        "expected_answers": [
+          "Eyn geystlich Gesangk Buchleyn",
+          "Eyn geystlich Gesangk Buchleyn",
+          "Eyn geystlich Gesangk Buchleyn"
+        ],
+        "expected_answer_starts": [
+          297,
+          297,
+          297
+        ],
+        "model_answer": "achtliederbuch",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.4051986634731293,
+          "correct_var": 0.08346094936132431,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "ac",
+            "question token": [
+              "what"
+            ],
+            "var": 0.4051986634731293
+          },
+          "correct_t2t_list": {
+            "original token": "e",
+            "question token": [
+              "what"
+            ],
+            "var": 0.08346094936132431
+          },
+          "wrong_ans_change": [
+            1,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            20
+          ]
+        }
+      },
+      {
+        "index": 79,
+        "data_id": "56f884cba6d7ea1400e17709",
+        "question": "Who else observed that Luther view of souls was different form later views?",
+        "context": "The Lutheran theologian Franz Pieper observed that Luther's teaching about the state of the Christian's soul after death differed from the later Lutheran theologians such as Johann Gerhard. Lessing (1755) had earlier reached the same conclusion in his analysis of Lutheran orthodoxy on this issue.",
+        "expected_answers": [
+          "Gerhard. Lessing",
+          "Lessing",
+          "Lessing"
+        ],
+        "expected_answer_starts": [
+          181,
+          190,
+          190
+        ],
+        "model_answer": "franz pieper",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.4352925419807434,
+          "correct_var": 0.10385890305042267,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "franz",
+            "question token": [
+              "who"
+            ],
+            "var": 0.4352925419807434
+          },
+          "correct_t2t_list": {
+            "original token": "less",
+            "question token": [
+              "who"
+            ],
+            "var": 0.10385890305042267
+          },
+          "wrong_ans_change": [
+            2,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 80,
+        "data_id": "56f89a959b226e1400dd0c9f",
+        "question": "What were Mohammedanism and the Turk?",
+        "context": "In 1542, Luther read a Latin translation of the Qur'an. He went on to produce several critical pamphlets on Islam, which he called \"Mohammedanism\" or \"the Turk\". Though Luther saw the Muslim faith as a tool of the devil, he was indifferent to its practice: \"Let the Turk believe and live as he will, just as one lets the papacy and other false Christians live.\" He opposed banning the publication of the Qur'an, wanting it exposed to scrutiny.",
+        "expected_answers": [
+          "Islam",
+          "Islam",
+          "pamphlets"
+        ],
+        "expected_answer_starts": [
+          108,
+          108,
+          95
+        ],
+        "model_answer": "critical pamphlets on islam",
+        "correct": false,
+        "f1": 0.4,
+        "dp_case": {
+          "wrong_var": 1.0031993389129639,
+          "correct_var": 0.6551195979118347,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "pamphlets",
+            "question token": [
+              "what"
+            ],
+            "var": 1.0031993389129639
+          },
+          "correct_t2t_list": {
+            "original token": "islam",
+            "question token": [
+              "what"
+            ],
+            "var": 0.6551195979118347
+          },
+          "wrong_ans_change": [
+            6,
+            20
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 81,
+        "data_id": "56f8aa749b226e1400dd0da9",
+        "question": "What does the Ten Commandments ask of the Christians?",
+        "context": "The Ten Commandments, and the beginnings of the renewed life of Christians accorded to them by the sacrament of baptism, are a present foreshadowing of the believers' future angel-like life in heaven in the midst of this life. Luther's teaching of the Ten Commandments, therefore, has clear eschatological overtones, which, characteristically for Luther, do not encourage world-flight but direct the Christian to service to the neighbor in the common, daily vocations of this perishing world.",
+        "expected_answers": [
+          "service to the neighbor",
+          "service to the neighbor in the common",
+          "service to the neighbor in the common, daily vocations of this perishing world"
+        ],
+        "expected_answer_starts": [
+          413,
+          413,
+          413
+        ],
+        "model_answer": "renewed life",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.4200875461101532,
+          "correct_var": 0.3905670642852783,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "life",
+            "question token": [
+              "the"
+            ],
+            "var": 0.4200875461101532
+          },
+          "correct_t2t_list": {
+            "original token": "service",
+            "question token": [
+              "what"
+            ],
+            "var": 0.3905670642852783
+          },
+          "wrong_ans_change": [
+            10,
+            10
+          ],
+          "correct_ans_change": [
+            0,
+            20
+          ]
+        }
+      },
+      {
+        "index": 82,
+        "data_id": "56f8c43d9b226e1400dd0f62",
+        "question": "What other aspect of Luther's life was affected by his health?",
+        "context": "His poor physical health made him short-tempered and even harsher in his writings and comments. His wife Katharina was overheard saying, \"Dear husband, you are too rude,\" and he responded, \"They are teaching me to be rude.\" In 1545 and 1546 Luther preached three times in the Market Church in Halle, staying with his friend Justus Jonas during Christmas.",
+        "expected_answers": [
+          "writings and comments",
+          "his writings and comments",
+          "writings and comments."
+        ],
+        "expected_answer_starts": [
+          73,
+          69,
+          73
+        ],
+        "model_answer": "physical",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 1.5221290588378906,
+          "correct_var": 0.8650566339492798,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "physical",
+            "question token": [
+              "health"
+            ],
+            "var": 1.5221290588378906
+          },
+          "correct_t2t_list": {
+            "original token": "writings",
+            "question token": [
+              "what"
+            ],
+            "var": 0.8650566339492798
+          },
+          "wrong_ans_change": [
+            5,
+            5
+          ],
+          "correct_ans_change": [
+            0,
+            15
+          ]
+        }
+      },
+      {
+        "index": 83,
+        "data_id": "56f8ca289b226e1400dd1007",
+        "question": "What was later discovered written by Luther?",
+        "context": "A piece of paper was later found on which Luther had written his last statement. The statement was in Latin, apart from \"We are beggars,\" which was in German.",
+        "expected_answers": [
+          "his last statement",
+          "his last statement",
+          "last statement"
+        ],
+        "expected_answer_starts": [
+          61,
+          61,
+          65
+        ],
+        "model_answer": "a piece of paper",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.7612699866294861,
+          "correct_var": 1.0603675842285156,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "paper",
+            "question token": [
+              "luther"
+            ],
+            "var": 0.7612699866294861
+          },
+          "correct_t2t_list": {
+            "original token": "last",
+            "question token": [
+              "luther"
+            ],
+            "var": 1.0603675842285156
+          },
+          "wrong_ans_change": [
+            1,
+            20
+          ],
+          "correct_ans_change": [
+            3,
+            10
+          ]
+        }
+      },
+      {
+        "index": 84,
+        "data_id": "56f8ce779b226e1400dd1041",
+        "question": "How is Luther commemorated on the Lutheran, Episcopal, and  Church of England  calendars?",
+        "context": "Luther is honoured on 18 February with a commemoration in the Lutheran Calendar of Saints and in the Episcopal (United States) Calendar of Saints. In the Church of England's Calendar of Saints he is commemorated on 31 October.",
+        "expected_answers": [
+          "Luther is honoured",
+          "honoured",
+          "honoured"
+        ],
+        "expected_answer_starts": [
+          0,
+          10,
+          10
+        ],
+        "model_answer": "a commemoration in the lutheran calendar of saints and in the episcopal ( united states ) calendar of saints. in the church of england ' s calendar of saints he is commemorated on 31 october",
+        "correct": false,
+        "f1": 0.06451612903225806,
+        "dp_case": {
+          "wrong_var": 1.3688429594039917,
+          "correct_var": 0.76754230260849,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "lutheran",
+            "question token": [
+              ","
+            ],
+            "var": 1.3688429594039917
+          },
+          "correct_t2t_list": {
+            "original token": "honoured",
+            "question token": [
+              "luther"
+            ],
+            "var": 0.76754230260849
+          },
+          "wrong_ans_change": [
+            126,
+            160
+          ],
+          "correct_ans_change": [
+            0,
+            5
+          ]
+        }
+      },
+      {
+        "index": 87,
+        "data_id": "5705e99452bb89140068968a",
+        "question": "What are Los Angeles, Orange, San Diego, San Bernardino and Riverside?",
+        "context": "Its counties of Los Angeles, Orange, San Diego, San Bernardino, and Riverside are the five most populous in the state and all are in the top 15 most populous counties in the United States.",
+        "expected_answers": [
+          "counties",
+          "counties",
+          "five most populous in the state"
+        ],
+        "expected_answer_starts": [
+          4,
+          4,
+          86
+        ],
+        "model_answer": "its counties of los angeles, orange, san diego, san bernardino, and riverside are the five most populous in the state",
+        "correct": false,
+        "f1": 0.4347826086956522,
+        "dp_case": {
+          "wrong_var": 3.4980733394622803,
+          "correct_var": 1.3082754611968994,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "orange",
+            "question token": [
+              "what"
+            ],
+            "var": 3.4980733394622803
+          },
+          "correct_t2t_list": {
+            "original token": "counties",
+            "question token": [
+              "what"
+            ],
+            "var": 1.3082754611968994
+          },
+          "wrong_ans_change": [
+            85,
+            100
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 88,
+        "data_id": "5705fd8475f01819005e7840",
+        "question": "What term best describes southern California's collection of landscapes?",
+        "context": "Southern California consists of one of the more varied collections of geologic, topographic, and natural ecosystem landscapes in a diversity outnumbering other major regions in the state and country. The region spans from Pacific Ocean islands, shorelines, beaches, and coastal plains, through the Transverse and Peninsular Ranges with their peaks, into the large and small interior valleys, to the vast deserts of California.",
+        "expected_answers": [
+          "varied",
+          "varied",
+          "natural ecosystem"
+        ],
+        "expected_answer_starts": [
+          48,
+          48,
+          97
+        ],
+        "model_answer": "geologic, topographic, and natural ecosystem",
+        "correct": false,
+        "f1": 0.5714285714285715,
+        "dp_case": {
+          "wrong_var": 1.0691677331924438,
+          "correct_var": 1.0456238985061646,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "ecosystem",
+            "question token": [
+              "what"
+            ],
+            "var": 1.0691677331924438
+          },
+          "correct_t2t_list": {
+            "original token": "varied",
+            "question token": [
+              "what"
+            ],
+            "var": 1.0456238985061646
+          },
+          "wrong_ans_change": [
+            15,
+            25
+          ],
+          "correct_ans_change": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "index": 90,
+        "data_id": "570607f575f01819005e78b5",
+        "question": "What is the population of the second largest city in California?",
+        "context": "Los Angeles (at 3.7 million people) and San Diego (at 1.3 million people), both in southern California, are the two largest cities in all of California (and two of the eight largest cities in the United States). In southern California there are also twelve cities with more than 200,000 residents and 34 cities over 100,000 in population. Many of southern California's most developed cities lie along or in close proximity to the coast, with the exception of San Bernardino and Riverside.",
+        "expected_answers": [
+          "1.3 million",
+          "1.3 million",
+          "San Diego"
+        ],
+        "expected_answer_starts": [
+          54,
+          54,
+          40
+        ],
+        "model_answer": "los angeles ( at 3. 7 million people",
+        "correct": false,
+        "f1": 0.4,
+        "dp_case": {
+          "wrong_var": 1.0397497415542603,
+          "correct_var": 0.3668346405029297,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "los",
+            "question token": [
+              "?"
+            ],
+            "var": 1.0397497415542603
+          },
+          "correct_t2t_list": {
+            "original token": "diego",
+            "question token": [
+              "the"
+            ],
+            "var": 0.3668346405029297
+          },
+          "wrong_ans_change": [
+            18,
+            35
+          ],
+          "correct_ans_change": [
+            5,
+            10
+          ]
+        }
+      },
+      {
+        "index": 92,
+        "data_id": "57060a6e52bb8914006897fa",
+        "question": "What is the only district in the CBD to not have \"downtown\" in it's name?",
+        "context": "Southern California is home to many major business districts. Central business districts (CBD) include Downtown Los Angeles, Downtown San Diego, Downtown San Bernardino, Downtown Bakersfield, South Coast Metro and Downtown Riverside.",
+        "expected_answers": [
+          "South Coast Metro",
+          "South Coast Metro",
+          "South Coast Metro"
+        ],
+        "expected_answer_starts": [
+          192,
+          192,
+          192
+        ],
+        "model_answer": "downtown riverside",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.550345778465271,
+          "correct_var": 0.3209449350833893,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "riverside",
+            "question token": [
+              "what"
+            ],
+            "var": 0.550345778465271
+          },
+          "correct_t2t_list": {
+            "original token": "south",
+            "question token": [
+              "the"
+            ],
+            "var": 0.3209449350833893
+          },
+          "wrong_ans_change": [
+            10,
+            10
+          ],
+          "correct_ans_change": [
+            3,
+            15
+          ]
+        }
+      },
+      {
+        "index": 94,
+        "data_id": "5706143575f01819005e7950",
+        "question": "The Los Angeles Rams are an example of what kind of sports team?",
+        "context": "Professional sports teams in Southern California include teams from the NFL (Los Angeles Rams, San Diego Chargers); NBA (Los Angeles Lakers, Los Angeles Clippers); MLB (Los Angeles Dodgers, Los Angeles Angels of Anaheim, San Diego Padres); NHL (Los Angeles Kings, Anaheim Ducks); and MLS (LA Galaxy).",
+        "expected_answers": [
+          "NFL",
+          "Professional",
+          "NFL"
+        ],
+        "expected_answer_starts": [
+          72,
+          0,
+          72
+        ],
+        "model_answer": "professional sports teams in southern california include teams from the nfl",
+        "correct": false,
+        "f1": 0.18181818181818182,
+        "dp_case": {
+          "wrong_var": 1.788634181022644,
+          "correct_var": 1.3852564096450806,
+          "dp": true,
+          "wrong_t2t_list": {
+            "original token": "professional",
+            "question token": [
+              "what"
+            ],
+            "var": 1.788634181022644
+          },
+          "correct_t2t_list": {
+            "original token": "nfl",
+            "question token": [
+              "what"
+            ],
+            "var": 1.3852564096450806
+          },
+          "wrong_ans_change": [
+            41,
+            55
+          ],
+          "correct_ans_change": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "index": 95,
+        "data_id": "570614ff52bb89140068988c",
+        "question": "What is the name of the team from USC?",
+        "context": "College sports are also popular in southern California. The UCLA Bruins and the USC Trojans both field teams in NCAA Division I in the Pac-12 Conference, and there is a longtime rivalry between the schools.",
+        "expected_answers": [
+          "Trojans",
+          "Trojans",
+          "Trojans"
+        ],
+        "expected_answer_starts": [
+          84,
+          84,
+          84
+        ],
+        "model_answer": "ucla bruins",
+        "correct": false,
+        "f1": 0,
+        "dp_case": {
+          "wrong_var": 0.9575710296630859,
+          "correct_var": 1.1537903547286987,
+          "dp": false,
+          "wrong_t2t_list": {
+            "original token": "ucla",
+            "question token": [
+              "what"
+            ],
+            "var": 0.9575710296630859
+          },
+          "correct_t2t_list": {
+            "original token": "trojan",
+            "question token": [
+              "usc"
+            ],
+            "var": 1.1537903547286987
+          },
+          "wrong_ans_change": [
+            6,
+            10
+          ],
+          "correct_ans_change": [
+            3,
+            5
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "start_idx": 600,
+  "end_idx": 900,
+  "eval_results": {
+    "exact": 77.33333333333333,
+    "f1": 82.60016157707976,
+    "total": 300
+  },
+  "mismatch_results": {
+    "qas": [
+      {
+        "index": 1,
+        "data_id": "56e181d9e3433e1400422fa0",
+        "question": "In a computational problem, what can be described as a string over an alphabet?",
+        "context": "When considering computational problems, a problem instance is a string over an alphabet. Usually, the alphabet is taken to be the binary alphabet (i.e., the set {0,1}), and thus the strings are bitstrings. As in a real-world computer, mathematical objects other than bitstrings must be suitably encoded. For example, integers can be represented in binary notation, and graphs can be encoded directly via their adjacency matrices, or by encoding their adjacency lists in binary.",
+        "expected_answers": [
+          "problem instance",
+          "a problem instance",
+          "problem instance"
+        ],
+        "expected_answer_starts": [
+          43,
+          41,
+          43
+        ],
+        "model_answer": "bitstrings",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 18,
+        "data_id": "56e1a564cd28a01900c67a4a",
+        "question": "What term corresponds to the maximum measurement of time across all functions of n? ",
+        "context": "If the input size is n, the time taken can be expressed as a function of n. Since the time taken on different inputs of the same size can be different, the worst-case time complexity T(n) is defined to be the maximum time taken over all inputs of size n. If T(n) is a polynomial in n, then the algorithm is said to be a polynomial time algorithm. Cobham's thesis says that a problem can be solved with a feasible amount of resources if it admits a polynomial time algorithm.",
+        "expected_answers": [
+          "worst-case time complexity",
+          "worst-case time complexity",
+          "the worst-case time complexity"
+        ],
+        "expected_answer_starts": [
+          156,
+          156,
+          152
+        ],
+        "model_answer": "t ( n )",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 23,
+        "data_id": "56e1b00ce3433e14004230a1",
+        "question": "In the determination of complexity classes, what are two examples of types of Turing machines?",
+        "context": "Many types of Turing machines are used to define complexity classes, such as deterministic Turing machines, probabilistic Turing machines, non-deterministic Turing machines, quantum Turing machines, symmetric Turing machines and alternating Turing machines. They are all equally powerful in principle, but when resources (such as time or space) are bounded, some of these may be more powerful than others.",
+        "expected_answers": [
+          "probabilistic Turing machines, non-deterministic Turing machines",
+          "probabilistic Turing machines, non-deterministic Turing machines"
+        ],
+        "expected_answer_starts": [
+          108,
+          108
+        ],
+        "model_answer": "deterministic turing machines, probabilistic turing machines, non - deterministic turing machines, quantum turing machines, symmetric turing machines and alternating turing machines",
+        "correct": false,
+        "f1": 0.5185185185185185
+      },
+      {
+        "index": 25,
+        "data_id": "56e1b169cd28a01900c67a73",
+        "question": "In considering Turing machines and alternate variables, what measurement left unaffected by conversion between machine models? ",
+        "context": "Many machine models different from the standard multi-tape Turing machines have been proposed in the literature, for example random access machines. Perhaps surprisingly, each of these models can be converted to another without providing any extra computational power. The time and memory consumption of these alternate models may vary. What all these models have in common is that the machines operate deterministically.",
+        "expected_answers": [
+          "computational power",
+          "computational power",
+          "computational power"
+        ],
+        "expected_answer_starts": [
+          248,
+          248,
+          248
+        ],
+        "model_answer": "memory consumption",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 29,
+        "data_id": "56e1b754cd28a01900c67abd",
+        "question": "A complexity resource can also be described as what other type of resource?",
+        "context": "Analogous definitions can be made for space requirements. Although time and space are the most well-known complexity resources, any complexity measure can be viewed as a computational resource. Complexity measures are very generally defined by the Blum complexity axioms. Other complexity measures used in complexity theory include communication complexity, circuit complexity, and decision tree complexity.",
+        "expected_answers": [
+          "computational resource",
+          "computational",
+          "computational"
+        ],
+        "expected_answer_starts": [
+          170,
+          170,
+          170
+        ],
+        "model_answer": "space requirements",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 36,
+        "data_id": "56e1b8f3e3433e14004230e9",
+        "question": "Case complexities provide three likelihoods of what differing variable that remains the same size? ",
+        "context": "The best, worst and average case complexity refer to three different ways of measuring the time complexity (or any other complexity measure) of different inputs of the same size. Since some inputs of size n may be faster to solve than others, we define the following complexities:",
+        "expected_answers": [
+          "inputs",
+          "inputs",
+          "inputs"
+        ],
+        "expected_answer_starts": [
+          154,
+          154,
+          154
+        ],
+        "model_answer": "time complexity",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 63,
+        "data_id": "56e1efa0e3433e140042321c",
+        "question": "What is commonly believed to be the value relationship between P and co-NP",
+        "context": "Along the same lines, co-NP is the class containing the complement problems (i.e. problems with the yes/no answers reversed) of NP problems. It is believed that NP is not equal to co-NP; however, it has not yet been proven. It has been shown that if these two complexity classes are not equal then P is not equal to NP.",
+        "expected_answers": [
+          "not equal",
+          "not equal",
+          "not equal"
+        ],
+        "expected_answer_starts": [
+          167,
+          303,
+          167
+        ],
+        "model_answer": "[CLS] what is commonly believed to be the value relationship between p and co - np [SEP]",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 84,
+        "data_id": "56e20a27cd28a01900c67c25",
+        "question": "In the effort of maintaining a level of abstraction, what choice is typically left independent?",
+        "context": "Even though some proofs of complexity-theoretic theorems regularly assume some concrete choice of input encoding, one tries to keep the discussion abstract enough to be independent of the choice of encoding. This can be achieved by ensuring that different representations can be transformed into each other efficiently.",
+        "expected_answers": [
+          "encoding",
+          "encoding",
+          "encoding"
+        ],
+        "expected_answer_starts": [
+          104,
+          198,
+          198
+        ],
+        "model_answer": "input encoding, one tries to keep the discussion abstract enough to be independent of the choice of encoding",
+        "correct": false,
+        "f1": 0.11764705882352941
+      },
+      {
+        "index": 88,
+        "data_id": "56e748a200c9c71400d76f3a",
+        "question": "What type of teaching would help the most with everyday life?",
+        "context": "A teacher's role may vary among cultures. Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills.",
+        "expected_answers": [
+          "life skills",
+          "life skills",
+          "life skills"
+        ],
+        "expected_answer_starts": [
+          187,
+          187,
+          187
+        ],
+        "model_answer": "literacy and numeracy, craftsmanship or vocational training",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 90,
+        "data_id": "56e749dd00c9c71400d76f52",
+        "question": "If someone is being taught at their place of residence, what is it called?",
+        "context": "In some countries, formal education can take place through home schooling. Informal learning may be assisted by a teacher occupying a transient or ongoing role, such as a family member, or by anyone with knowledge or skills in the wider community setting.",
+        "expected_answers": [
+          "home schooling",
+          "home schooling",
+          "home schooling"
+        ],
+        "expected_answer_starts": [
+          59,
+          59,
+          59
+        ],
+        "model_answer": "informal",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 105,
+        "data_id": "56e74d1f00c9c71400d76f70",
+        "question": "What would type of studying would require a teacher to take on a supervisor role?",
+        "context": "A teacher's professional duties may extend beyond formal teaching. Outside of the classroom teachers may accompany students on field trips, supervise study halls, help with the organization of school functions, and serve as supervisors for extracurricular activities. In some education systems, teachers may have responsibility for student discipline.",
+        "expected_answers": [
+          "study halls",
+          "study halls"
+        ],
+        "expected_answer_starts": [
+          150,
+          150
+        ],
+        "model_answer": "extracurricular activities",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 108,
+        "data_id": "56e74e4800c9c71400d76f77",
+        "question": "Why would a teacher's college exist?",
+        "context": "There are a variety of bodies designed to instill, preserve and update the knowledge and professional standing of teachers. Around the world many governments operate teacher's colleges, which are generally established to serve and protect the public interest through certifying, governing and enforcing the standards of practice for the teaching profession.",
+        "expected_answers": [
+          "to serve and protect the public interest",
+          "serve and protect the public",
+          "to serve and protect the public interest"
+        ],
+        "expected_answer_starts": [
+          218,
+          221,
+          218
+        ],
+        "model_answer": "to serve and protect the public interest through certifying, governing and enforcing the standards of practice for the teaching profession",
+        "correct": false,
+        "f1": 0.5217391304347826
+      },
+      {
+        "index": 114,
+        "data_id": "56e7504437bdd419002c3e5d",
+        "question": "Where is another indoor location for a teacher other than a school?",
+        "context": "In education, teachers facilitate student learning, often in a school or academy or perhaps in another environment such as outdoors. A teacher who teaches on an individual basis may be described as a tutor.",
+        "expected_answers": [
+          "academy",
+          "academy",
+          "academy"
+        ],
+        "expected_answer_starts": [
+          73,
+          73,
+          73
+        ],
+        "model_answer": "outdoors",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 129,
+        "data_id": "56e7578a37bdd419002c3eac",
+        "question": "How common of a type was corporal punishment in schools?",
+        "context": "Throughout the history of education the most common form of school discipline was corporal punishment. While a child was in school, a teacher was expected to act as a substitute parent, with all the normal forms of parental discipline open to them.",
+        "expected_answers": [
+          "the most common",
+          "most common",
+          "most common"
+        ],
+        "expected_answer_starts": [
+          36,
+          40,
+          40
+        ],
+        "model_answer": "most common form of school discipline",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 133,
+        "data_id": "56e7586d37bdd419002c3eb5",
+        "question": "What Western country is corporal punishment still allowed?",
+        "context": "In past times, corporal punishment (spanking or paddling or caning or strapping or birching the student in order to cause physical pain) was one of the most common forms of school discipline throughout much of the world. Most Western countries, and some others, have now banned it, but it remains lawful in the United States following a US Supreme Court decision in 1977 which held that paddling did not violate the US Constitution.",
+        "expected_answers": [
+          "United States",
+          "United States",
+          "United States",
+          "United States"
+        ],
+        "expected_answer_starts": [
+          311,
+          311,
+          311,
+          311
+        ],
+        "model_answer": "[CLS] what western country is corporal punishment still allowed? [SEP] in past times, corporal punishment ( spanking or paddling or caning or strapping or birching the student in order to cause physical pain ) was one of the most common forms of school discipline throughout much of the world. most western countries, and some others, have now banned it, but it remains lawful in the united states",
+        "correct": false,
+        "f1": 0.06349206349206349
+      },
+      {
+        "index": 141,
+        "data_id": "56e75a9037bdd419002c3ec9",
+        "question": "Where does the pupil remain while in detention",
+        "context": "Currently detention is one of the most common punishments in schools in the United States, the UK, Ireland, Singapore and other countries. It requires the pupil to remain in school at a given time in the school day (such as lunch, recess or after school); or even to attend school on a non-school day, e.g. \"Saturday detention\" held at some schools. During detention, students normally have to sit in a classroom and do work, write lines or a punishment essay, or sit quietly.",
+        "expected_answers": [
+          "in schools",
+          "school",
+          "school"
+        ],
+        "expected_answer_starts": [
+          58,
+          174,
+          174
+        ],
+        "model_answer": "it requires the pupil to remain in school at a given time in the school day",
+        "correct": false,
+        "f1": 0.14285714285714288
+      },
+      {
+        "index": 176,
+        "data_id": "56e76ea737bdd419002c3f9e",
+        "question": "What may also be required of teachers, in some areas?",
+        "context": "Teaching in Canada requires a post-secondary degree Bachelor's Degree. In most provinces a second Bachelor's Degree such as a Bachelor of Education is required to become a qualified teacher. Salary ranges from $40,000/year to $90,000/yr. Teachers have the option to teach for a public school which is funded by the provincial government or teaching in a private school which is funded by the private sector, businesses and sponsors.",
+        "expected_answers": [
+          "a second Bachelor's Degree such as a Bachelor of Education",
+          "a second Bachelor's Degree",
+          "a second Bachelor's Degree"
+        ],
+        "expected_answer_starts": [
+          89,
+          89,
+          89
+        ],
+        "model_answer": "a public school which is funded by the provincial government or teaching in a private school which is funded by the private sector, businesses and sponsors",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 179,
+        "data_id": "56e76f7000c9c71400d7712d",
+        "question": "Where are teachers recruited from?",
+        "context": "In Germany, teachers are mainly civil servants recruited in special university classes, called Lehramtstudien (Teaching Education Studies). There are many differences between the teachers for elementary schools (Grundschule), lower secondary schools (Hauptschule), middle level secondary schools (Realschule) and higher level secondary schools (Gymnasium). Salaries for teachers depend on the civil servants' salary index scale (Bundesbesoldungsordnung).",
+        "expected_answers": [
+          "Lehramtstudien (Teaching Education Studies)",
+          "Lehramtstudien",
+          "special university classes"
+        ],
+        "expected_answer_starts": [
+          95,
+          95,
+          60
+        ],
+        "model_answer": "germany",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 228,
+        "data_id": "56f7f2e0aef2371900625cb3",
+        "question": "Where did Luther spend his career?",
+        "context": "On 19 October 1512, he was awarded his Doctor of Theology and, on 21 October 1512, was received into the senate of the theological faculty of the University of Wittenberg, having been called to the position of Doctor in Bible. He spent the rest of his career in this position at the University of Wittenberg.",
+        "expected_answers": [
+          "University of Wittenberg",
+          "University of Wittenberg",
+          "University of Wittenberg."
+        ],
+        "expected_answer_starts": [
+          283,
+          283,
+          283
+        ],
+        "model_answer": "university of wittenberg, having been called to the position of doctor in bible. he spent the rest of his career in this position at the university of wittenberg",
+        "correct": false,
+        "f1": 0.21428571428571425
+      },
+      {
+        "index": 242,
+        "data_id": "56f802c6a6d7ea1400e1737a",
+        "question": "What did Luther call these donations?",
+        "context": "He insisted that, since forgiveness was God's alone to grant, those who claimed that indulgences absolved buyers from all punishments and granted them salvation were in error. Christians, he said, must not slacken in following Christ on account of such false assurances.",
+        "expected_answers": [
+          "false assurances",
+          "false assurances",
+          "false assurances."
+        ],
+        "expected_answer_starts": [
+          253,
+          253,
+          253
+        ],
+        "model_answer": "error",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 251,
+        "data_id": "56f80604a6d7ea1400e1738a",
+        "question": "Where was Melanchthon at the time?",
+        "context": "According to scholars Walter Kr\u00e4mer, G\u00f6tz Trenkler, Gerhard Ritter, and Gerhard Prause, the story of the posting on the door, even though it has settled as one of the pillars of history, has little foundation in truth. The story is based on comments made by Philipp Melanchthon, though it is thought that he was not in Wittenberg at the time.",
+        "expected_answers": [
+          "not in Wittenberg",
+          "not in Wittenberg",
+          "not in Wittenberg"
+        ],
+        "expected_answer_starts": [
+          312,
+          312,
+          312
+        ],
+        "model_answer": "wittenberg",
+        "correct": false,
+        "f1": 0.5
+      },
+      {
+        "index": 260,
+        "data_id": "56f8094aa6d7ea1400e17393",
+        "question": "What part of Luther's career was one of his most productive?",
+        "context": "Luther's writings circulated widely, reaching France, England, and Italy as early as 1519. Students thronged to Wittenberg to hear Luther speak. He published a short commentary on Galatians and his Work on the Psalms. This early part of Luther's career was one of his most creative and productive. Three of his best-known works were published in 1520: To the Christian Nobility of the German Nation, On the Babylonian Captivity of the Church, and On the Freedom of a Christian.",
+        "expected_answers": [
+          "early part",
+          "early",
+          "early"
+        ],
+        "expected_answer_starts": [
+          223,
+          223,
+          223
+        ],
+        "model_answer": "a short commentary on galatians and his work on the psalms",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 267,
+        "data_id": "56f80fdfaef2371900625d95",
+        "question": "To whom did Luther send a letter containing his 95 Theses?",
+        "context": "Archbishop Albrecht of Mainz and Magdeburg did not reply to Luther's letter containing the 95 Theses. He had the theses checked for heresy and in December 1517 forwarded them to Rome. He needed the revenue from the indulgences to pay off a papal dispensation for his tenure of more than one bishopric. As Luther later noted, \"the pope had a finger in the pie as well, because one half was to go to the building of St Peter's Church in Rome\".",
+        "expected_answers": [
+          "Archbishop Albrecht",
+          "Archbishop Albrecht",
+          "Archbishop Albrecht of Mainz and Magdeburg"
+        ],
+        "expected_answer_starts": [
+          0,
+          0,
+          0
+        ],
+        "model_answer": "rome",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 269,
+        "data_id": "56f80fdfaef2371900625d97",
+        "question": "What did Albrecht need the indulgences to pay for?",
+        "context": "Archbishop Albrecht of Mainz and Magdeburg did not reply to Luther's letter containing the 95 Theses. He had the theses checked for heresy and in December 1517 forwarded them to Rome. He needed the revenue from the indulgences to pay off a papal dispensation for his tenure of more than one bishopric. As Luther later noted, \"the pope had a finger in the pie as well, because one half was to go to the building of St Peter's Church in Rome\".",
+        "expected_answers": [
+          "papal dispensation",
+          "papal dispensation",
+          "pay off a papal dispensation for his tenure"
+        ],
+        "expected_answer_starts": [
+          240,
+          240,
+          230
+        ],
+        "model_answer": "a papal dispensation for his tenure of more than one bishopric",
+        "correct": false,
+        "f1": 0.588235294117647
+      },
+      {
+        "index": 281,
+        "data_id": "56f82454a6d7ea1400e173ff",
+        "question": "How did Luther respond after being asked if the books were his?",
+        "context": "Johann Eck, speaking on behalf of the Empire as assistant of the Archbishop of Trier, presented Luther with copies of his writings laid out on a table and asked him if the books were his, and whether he stood by their contents. Luther confirmed he was their author, but requested time to think about the answer to the second question. He prayed, consulted friends, and gave his response the next day:",
+        "expected_answers": [
+          "confirmed",
+          "confirmed",
+          "confirmed"
+        ],
+        "expected_answer_starts": [
+          235,
+          235,
+          235
+        ],
+        "model_answer": "whether he stood by their contents",
+        "correct": false,
+        "f1": 0
+      },
+      {
+        "index": 288,
+        "data_id": "56f826a7a6d7ea1400e17429",
+        "question": "Why is the statement doubtful in the eyes of scholars?",
+        "context": "Luther refused to recant his writings. He is sometimes also quoted as saying: \"Here I stand. I can do no other\". Recent scholars consider the evidence for these words to be unreliable, since they were inserted before \"May God help me\" only in later versions of the speech and not recorded in witness accounts of the proceedings. However, Mullett suggests that given his nature, \"we are free to believe that Luther would tend to select the more dramatic form of words.\"",
+        "expected_answers": [
+          "not recorded",
+          "not recorded in witness accounts",
+          "not recorded in witness accounts"
+        ],
+        "expected_answer_starts": [
+          276,
+          276,
+          276
+        ],
+        "model_answer": "they were inserted before \" may god help me \" only in later versions of the speech and not recorded in witness accounts of the proceedings",
+        "correct": false,
+        "f1": 0.37037037037037035
+      }
+    ]
+  }
+}
